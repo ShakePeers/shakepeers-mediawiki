@@ -12,9 +12,9 @@
 		"type": "vcs",
 		"url": "https://github.com/wikimedia/mediawiki.git"
 	}],
-    "scripts": {
-        "post-install-cmd": [
-            "ln -sfn ../../ vendor/mediawiki/core/vendor"
-        ]
-    }
+	"scripts": {
+		"post-install-cmd": [
+			"ln -sfn ../../ vendor/mediawiki/core/vendor"
+		]
+	}
 }
