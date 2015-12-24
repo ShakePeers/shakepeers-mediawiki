@@ -1,6 +1,6 @@
 {
 	"name": "rudloff/mediawiki-composer",
-	"description": "Base Composer setup for MediaWiki projects",
+	"description": "MediaWiki setup for shakepeers.org",
 	"license": "GPL-3.0",
 	"type": "project",
 	"require": {
@@ -10,7 +10,7 @@
 	},
 	"repositories": [{
 		"type": "vcs",
-		"url": "https://github.com/wikimedia/mediawiki.git"
+		"url": "https://github.com/ShakePeers/MediaKiki.git"
 	}],
 	"scripts": {
 		"post-install-cmd": [
