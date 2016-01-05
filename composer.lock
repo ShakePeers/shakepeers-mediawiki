@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7d2fc789ab511e617ae2320bb7ed633b",
-    "content-hash": "ce420e828daa2ed66ba20d5c7039f80d",
+    "hash": "e8ea296dfaea1d93f8003d626061ebd7",
+    "content-hash": "7a4e849378959b92e72d5ce3944a1ffb",
     "packages": [
         {
             "name": "composer/installers",
@@ -1235,17 +1235,17 @@
             "time": "2016-01-05 20:45:47"
         },
         {
-            "name": "shakeepers/shakepeers-mediawiki-skin",
-            "version": "dev-develop",
+            "name": "shakeepers/shakepeers-skin",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShakePeers/shakepeers-mediawiki-skin.git",
-                "reference": "3d4e91dfcd545de4eb4d0ecb0e3863e6796d0594"
+                "reference": "35934f60685c2f7fe92a1c5fce00f2ad969c0228"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/3d4e91dfcd545de4eb4d0ecb0e3863e6796d0594",
-                "reference": "3d4e91dfcd545de4eb4d0ecb0e3863e6796d0594",
+                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/35934f60685c2f7fe92a1c5fce00f2ad969c0228",
+                "reference": "35934f60685c2f7fe92a1c5fce00f2ad969c0228",
                 "shasum": ""
             },
             "type": "mediawiki-skin",
@@ -1254,7 +1254,7 @@
                 "Apache-2.0"
             ],
             "description": "Fork of bootstrap-mediawiki used on shakepeers.org",
-            "time": "2016-01-05 19:50:30"
+            "time": "2016-01-05 21:41:35"
         },
         {
             "name": "twitter/bootstrap",
@@ -1631,8 +1631,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "mediawiki/vector-skin": 20,
-        "shakeepers/shakepeers-mediawiki-skin": 20
+        "mediawiki/vector-skin": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
