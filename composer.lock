@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e8ea296dfaea1d93f8003d626061ebd7",
-    "content-hash": "7a4e849378959b92e72d5ce3944a1ffb",
+    "hash": "810c52f24834ab53ab8206a15a365bd3",
+    "content-hash": "fd5933a4243b0bbf66f25677a933affc",
     "packages": [
         {
             "name": "composer/installers",
@@ -1169,17 +1169,17 @@
             "time": "2012-12-21 11:40:51"
         },
         {
-            "name": "shakeepers/mediawiki-breadcrumblist",
-            "version": "0.1.0",
+            "name": "shakeepers/breadcrumb-list",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShakePeers/mediawiki-BreadcrumbList.git",
-                "reference": "ebf770f3e8eca6df15bb7643de99ea4cb8b828a7"
+                "reference": "69f5dd95929c02bf00eb2884a227e461d618991f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/mediawiki-BreadcrumbList/zipball/ebf770f3e8eca6df15bb7643de99ea4cb8b828a7",
-                "reference": "ebf770f3e8eca6df15bb7643de99ea4cb8b828a7",
+                "url": "https://api.github.com/repos/ShakePeers/mediawiki-BreadcrumbList/zipball/69f5dd95929c02bf00eb2884a227e461d618991f",
+                "reference": "69f5dd95929c02bf00eb2884a227e461d618991f",
                 "shasum": ""
             },
             "type": "mediawiki-extension",
@@ -1188,10 +1188,10 @@
                 "GPL-3.0"
             ],
             "description": "Breadcrumbs with microdata",
-            "time": "2016-01-05 20:49:36"
+            "time": "2016-01-05 21:47:06"
         },
         {
-            "name": "shakeepers/mediawiki-pagecreator",
+            "name": "shakeepers/page-creator",
             "version": "0.3.0",
             "source": {
                 "type": "git",
@@ -1211,28 +1211,6 @@
             ],
             "description": "Fork of PageCreator extension for MediaWiki",
             "time": "2016-01-05 20:13:09"
-        },
-        {
-            "name": "shakeepers/mediawiki-sitelinkssearchbox",
-            "version": "0.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ShakePeers/mediawiki-SitelinksSearchBox.git",
-                "reference": "c4a6c42e4978191f931786bef0fc44bf198fa78c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/mediawiki-SitelinksSearchBox/zipball/c4a6c42e4978191f931786bef0fc44bf198fa78c",
-                "reference": "c4a6c42e4978191f931786bef0fc44bf198fa78c",
-                "shasum": ""
-            },
-            "type": "mediawiki-extension",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0"
-            ],
-            "description": "Provide Sitelinks Search Box to Google",
-            "time": "2016-01-05 20:45:47"
         },
         {
             "name": "shakeepers/shakepeers-skin",
@@ -1255,6 +1233,28 @@
             ],
             "description": "Fork of bootstrap-mediawiki used on shakepeers.org",
             "time": "2016-01-05 21:41:35"
+        },
+        {
+            "name": "shakeepers/sitelinks-search-box",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ShakePeers/mediawiki-SitelinksSearchBox.git",
+                "reference": "22e4f08fe586e36897f59c2f6d007615964bf16a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ShakePeers/mediawiki-SitelinksSearchBox/zipball/22e4f08fe586e36897f59c2f6d007615964bf16a",
+                "reference": "22e4f08fe586e36897f59c2f6d007615964bf16a",
+                "shasum": ""
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Provide Sitelinks Search Box to Google",
+            "time": "2016-01-05 21:50:35"
         },
         {
             "name": "twitter/bootstrap",
