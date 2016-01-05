@@ -6,11 +6,468 @@
 	"require": {
 		"mediawiki/core": "~1.26.0",
 		"mediawiki/vector-skin": "dev-REL1_26",
-		"composer/installers": "~1.0.22"
+		"composer/installers": "~1.0.22",
+		"mediawiki/WikiEditor": "~1.26",
+		"mediawiki/LiquidThreads": "~1.26",
+		"mediawiki/CategoryTree": "~1.26",
+		"mediawiki/Cite": "~1.26",
+		"mediawiki/MaintenanceShell": "~1.26",
+		"mediawiki/Nuke": "~1.26",
+		"mediawiki/Renameuser": "~1.26",
+		"mediawiki/intersection": "~1.26",
+		"mediawiki/InputBox": "~1.26",
+		"mediawiki/LabeledSectionTransclusion": "~1.26",
+		"mediawiki/ParserFunctions": "~1.26",
+		"mediawiki/Preloader": "~1.2.1",
+		"mediawiki/EtherpadLite": "~1.26",
+		"mediawiki/RSS": "~1.26",
+		"mediawiki/WikiArticleFeeds": "~1.26",
+		"mediawiki/Bootstrap": "~1.1.3",
+		"mediawiki/Lockdown": "~1.26",
+		"shakeepers/shakepeers-mediawiki-skin": "dev-develop",
+		"mediawiki/chameleon-skin": "~1.1.4",
+		"mediawiki/Echo": "~1.26",
+		"mediawiki/EventLogging": "~1.26",
+		"mediawiki/GuidedTour": "~1.26",
+		"mediawiki/Duplicator": "~1.26",
+		"mediawiki/header-footer": "~2.2.0",
+		"mediawiki/UserMerge": "~1.26",
+		"mediawiki/ConfirmEdit": "~1.26",
+		"shakeepers/mediawiki-pagecreator": "~0.3.0",
+		"mediawiki/Variables": "~1.26",
+		"mediawiki/bootstrap-skin": "~1.0.47",
+		"mediawiki/Math": "~1.26",
+		"mediawiki/TextExtracts": "~1.26",
+		"mediawiki/Description2": "~1.26",
+		"mediawiki/OpenGraphMeta": "~1.26",
+		"mediawiki/CheckUser": "~1.26",
+		"shakeepers/mediawiki-sitelinkssearchbox": "~0.1.0",
+		"shakeepers/mediawiki-breadcrumblist": "~0.1.0",
+		"mediawiki/PdfHandler": "~1.26",
+		"mediawiki/Parsoid": "~1.24",
+		"mediawiki/VisualEditor": "~1.26",
+		"mediawiki/BetaFeatures": "~1.26"
 	},
 	"repositories": [{
-		"type": "vcs",
-		"url": "https://github.com/ShakePeers/MediaKiki.git"
+		"type": "package",
+		"package": {
+			"name": "mediawiki/WikiEditor",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/WikiEditor.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/LiquidThreads",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/LiquidThreads.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/CategoryTree",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CategoryTree.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/Cite",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Cite.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/MaintenanceShell",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/MaintenanceShell.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/Nuke",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Nuke.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/Renameuser",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Renameuser.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/intersection",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/intersection.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/InputBox",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/InputBox.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/LabeledSectionTransclusion",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/LabeledSectionTransclusion.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/ParserFunctions",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ParserFunctions.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/Preloader",
+			"version": "1.2.1",
+			"source": {
+				"url": "https://github.com/troyengel/Preloader.git",
+				"type": "git",
+				"reference": "v1.2.1"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/EtherpadLite",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/EtherpadLite.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/RSS",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/RSS.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/WikiArticleFeeds",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/WikiArticleFeeds.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/Lockdown",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Lockdown.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/Echo",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Echo.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/EventLogging",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/EventLogging.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/GuidedTour",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/GuidedTour.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/Duplicator",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Duplicator.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/UserMerge",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/UserMerge.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/ConfirmEdit",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ConfirmEdit.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/Variables",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Variables.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/bootstrap-skin",
+			"version": "1.0.47",
+			"source": {
+				"url": "https://github.com/borkweb/bootstrap-mediawiki.git",
+				"type": "git",
+				"reference": "master"
+			},
+			"type": "mediawiki-skin"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/Math",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Math.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/TextExtracts",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TextExtracts.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/Description2",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Description2.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/OpenGraphMeta",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/OpenGraphMeta.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/Paypal",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Paypal.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/CheckUser",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CheckUser.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/CheckUser",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CheckUser.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/PdfHandler",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/PdfHandler.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/Parsoid",
+			"version": "1.24",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Parsoid.git",
+				"type": "git",
+				"reference": "REL1_24"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/VisualEditor",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/VisualEditor.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/BetaFeatures",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/BetaFeatures.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
 	}],
 	"scripts": {
 		"post-install-cmd": [
