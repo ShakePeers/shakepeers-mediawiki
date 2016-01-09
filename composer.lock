@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "810c52f24834ab53ab8206a15a365bd3",
-    "content-hash": "fd5933a4243b0bbf66f25677a933affc",
+    "hash": "e0f9c8c06d2f8807bf44d5922e59aab0",
+    "content-hash": "f1abda34dc138858df253b4374bef27e",
     "packages": [
         {
             "name": "composer/installers",
@@ -1191,17 +1191,61 @@
             "time": "2016-01-05 21:47:06"
         },
         {
-            "name": "shakeepers/page-creator",
-            "version": "0.3.0",
+            "name": "shakeepers/hide-namespace",
+            "version": "1.4.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ShakePeers/mediawiki-PageCreator.git",
-                "reference": "8019e6fce6b472bdb2d9a87fbbc9b2153909d9e9"
+                "url": "https://github.com/ShakePeers/mediawiki-HideNamespace.git",
+                "reference": "d4e808cf91a37c3c35ba58e636d9ab4c642e2767"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/mediawiki-PageCreator/zipball/8019e6fce6b472bdb2d9a87fbbc9b2153909d9e9",
-                "reference": "8019e6fce6b472bdb2d9a87fbbc9b2153909d9e9",
+                "url": "https://api.github.com/repos/ShakePeers/mediawiki-HideNamespace/zipball/d4e808cf91a37c3c35ba58e636d9ab4c642e2767",
+                "reference": "d4e808cf91a37c3c35ba58e636d9ab4c642e2767",
+                "shasum": ""
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Fork of HideNamespace extension for MediaWiki",
+            "time": "2016-01-09 18:39:25"
+        },
+        {
+            "name": "shakeepers/page-contributors",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ShakePeers/mediawiki-PageContributors.git",
+                "reference": "c325d5723d4aa1320ee87916cd49bbe5a821a0ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ShakePeers/mediawiki-PageContributors/zipball/c325d5723d4aa1320ee87916cd49bbe5a821a0ab",
+                "reference": "c325d5723d4aa1320ee87916cd49bbe5a821a0ab",
+                "shasum": ""
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "Fork of PageContributors extension for MediaWiki",
+            "time": "2016-01-09 18:31:15"
+        },
+        {
+            "name": "shakeepers/page-creator",
+            "version": "0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ShakePeers/mediawiki-PageCreator.git",
+                "reference": "ee5d5ecf016911961bf2971155f13ff1e8386dfe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ShakePeers/mediawiki-PageCreator/zipball/ee5d5ecf016911961bf2971155f13ff1e8386dfe",
+                "reference": "ee5d5ecf016911961bf2971155f13ff1e8386dfe",
                 "shasum": ""
             },
             "type": "mediawiki-extension",
@@ -1210,7 +1254,29 @@
                 "GPL-2.0"
             ],
             "description": "Fork of PageCreator extension for MediaWiki",
-            "time": "2016-01-05 20:13:09"
+            "time": "2016-01-05 21:52:42"
+        },
+        {
+            "name": "shakeepers/paypal",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ShakePeers/mediawiki-Paypal.git",
+                "reference": "43c80a29279b4358c4d6083ef6784e74ddf65985"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ShakePeers/mediawiki-Paypal/zipball/43c80a29279b4358c4d6083ef6784e74ddf65985",
+                "reference": "43c80a29279b4358c4d6083ef6784e74ddf65985",
+                "shasum": ""
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Fork of Paypal extension for MediaWiki",
+            "time": "2016-01-09 18:51:21"
         },
         {
             "name": "shakeepers/shakepeers-skin",

@@ -46,7 +46,10 @@
 		"mediawiki/PdfHandler": "~1.26",
 		"mediawiki/Parsoid": "~1.24",
 		"mediawiki/VisualEditor": "~1.26",
-		"mediawiki/BetaFeatures": "~1.26"
+		"mediawiki/BetaFeatures": "~1.26",
+		"shakeepers/page-contributors": "~0.1.0",
+		"shakeepers/hide-namespace": "~1.4.3",
+		"shakeepers/paypal": "~1.0.2"
 	},
 	"repositories": [{
 		"type": "package",
