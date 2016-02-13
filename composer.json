@@ -45,6 +45,7 @@
 		"mediawiki/Parsoid": "~1.24",
 		"mediawiki/VisualEditor": "~1.26",
 		"mediawiki/BetaFeatures": "~1.26",
+		"mediawiki/TwitterCards": "~1.26",
 		"shakeepers/page-contributors": "~0.1.0",
 		"shakeepers/hide-namespace": "~1.4.3",
 		"shakeepers/paypal": "~1.0.2"
@@ -464,6 +465,18 @@
 			"version": "1.26",
 			"source": {
 				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/BetaFeatures.git",
+				"type": "git",
+				"reference": "REL1_26"
+			},
+			"type": "mediawiki-extension"
+		}
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/TwitterCards",
+			"version": "1.26",
+			"source": {
+				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TwitterCards.git",
 				"type": "git",
 				"reference": "REL1_26"
 			},

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d6f967072b8bcd331162df2627e84fe1",
-    "content-hash": "c6bd867df5bbe572713a7173810fa57e",
+    "hash": "ccf98d467cc11a20fe742e678c21e093",
+    "content-hash": "ad6ff95b6a89c77a0af616895e55b7e1",
     "packages": [
         {
             "name": "composer/installers",
@@ -506,6 +506,16 @@
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TextExtracts.git",
+                "reference": "REL1_26"
+            },
+            "type": "mediawiki-extension"
+        },
+        {
+            "name": "mediawiki/TwitterCards",
+            "version": "1.26",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TwitterCards.git",
                 "reference": "REL1_26"
             },
             "type": "mediawiki-extension"
