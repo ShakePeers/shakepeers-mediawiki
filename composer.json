@@ -1,8 +1,23 @@
 {
-	"name": "rudloff/mediawiki-composer",
+	"name": "shakepeers/shakepeers-mediawiki",
 	"description": "MediaWiki setup for shakepeers.org",
 	"license": "GPL-3.0",
 	"type": "project",
+	"homepage": "https://shakepeers.org/Accueil",
+	"authors": [{
+		"name": "Pierre Rudloff",
+		"email": "contact@rudloff.pro",
+		"homepage": "https://www.rudloff.pro/",
+		"role": "Developer"
+	}],
+	"support": {
+		"email": "contact@shakepeers.org",
+		"issues": "https://github.com/ShakePeers/shakepeers-mediawiki/issues",
+		"source": "https://github.com/ShakePeers/shakepeers-mediawiki"
+	},
+	"replace": {
+		"rudloff/mediawiki-composer": "~0.1.3"
+	},
 	"require": {
 		"mediawiki/core": "~1.26.0",
 		"mediawiki/vector-skin": "dev-REL1_26",
