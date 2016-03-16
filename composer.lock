@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1c4989dc4817472454f03e1a25938aa5",
-    "content-hash": "a7d54590902f05c2a714b2a54b640421",
+    "hash": "b544e0d9194aee3339a8d5aa529dbd9d",
+    "content-hash": "fdc3bab0624b114acf1188f8da7130f8",
     "packages": [
         {
             "name": "composer/installers",
@@ -376,16 +376,6 @@
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/LabeledSectionTransclusion.git",
-                "reference": "REL1_26"
-            },
-            "type": "mediawiki-extension"
-        },
-        {
-            "name": "mediawiki/LiquidThreads",
-            "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/LiquidThreads.git",
                 "reference": "REL1_26"
             },
             "type": "mediawiki-extension"
@@ -795,6 +785,32 @@
                 "reference": "REL1_26"
             },
             "type": "mediawiki-extension"
+        },
+        {
+            "name": "mediawiki/liquid-threads",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/LiquidThreads.git",
+                "reference": "a259e882277c56a4d1ca34ee71b403275ae7c966"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "require-dev": {
+                "jakub-onderka/php-parallel-lint": "0.9.2"
+            },
+            "type": "mediawiki-extension",
+            "scripts": {
+                "test": [
+                    "parallel-lint . --exclude vendor"
+                ]
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "LiquidThreads extension implements a structured discussion system for MediaWiki.",
+            "time": "2016-03-16 10:04:40"
         },
         {
             "name": "mediawiki/vector-skin",
@@ -1485,7 +1501,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "mediawiki/vector-skin": 20
+        "mediawiki/vector-skin": 20,
+        "mediawiki/liquid-threads": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
