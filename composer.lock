@@ -792,7 +792,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/LiquidThreads.git",
-                "reference": "a259e882277c56a4d1ca34ee71b403275ae7c966"
+                "reference": "29e9ac18393aa57d2beb1adcfcb212f210926ba4"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -810,7 +810,7 @@
                 "GPL-2.0+"
             ],
             "description": "LiquidThreads extension implements a structured discussion system for MediaWiki.",
-            "time": "2016-03-16 10:04:40"
+            "time": "2016-03-16 21:00:29"
         },
         {
             "name": "mediawiki/vector-skin",
