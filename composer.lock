@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b544e0d9194aee3339a8d5aa529dbd9d",
-    "content-hash": "fdc3bab0624b114acf1188f8da7130f8",
+    "hash": "cfc2ecc8213b2c5a2a473019423f7429",
+    "content-hash": "22b2973ae2bb713656a094f407e7173d",
     "packages": [
         {
             "name": "composer/installers",
@@ -1135,16 +1135,16 @@
         },
         {
             "name": "shakeepers/shakepeers-skin",
-            "version": "0.1.1",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShakePeers/shakepeers-mediawiki-skin.git",
-                "reference": "35934f60685c2f7fe92a1c5fce00f2ad969c0228"
+                "reference": "efea15d56f37c58b0e9c6125afe9881ba8f1de63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/35934f60685c2f7fe92a1c5fce00f2ad969c0228",
-                "reference": "35934f60685c2f7fe92a1c5fce00f2ad969c0228",
+                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/efea15d56f37c58b0e9c6125afe9881ba8f1de63",
+                "reference": "efea15d56f37c58b0e9c6125afe9881ba8f1de63",
                 "shasum": ""
             },
             "type": "mediawiki-skin",
@@ -1153,7 +1153,7 @@
                 "Apache-2.0"
             ],
             "description": "Fork of bootstrap-mediawiki used on shakepeers.org",
-            "time": "2016-01-05 21:41:35"
+            "time": "2016-03-16 21:28:30"
         },
         {
             "name": "shakeepers/sitelinks-search-box",
@@ -1502,7 +1502,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "mediawiki/vector-skin": 20,
-        "mediawiki/liquid-threads": 20
+        "mediawiki/liquid-threads": 20,
+        "shakeepers/shakepeers-skin": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
