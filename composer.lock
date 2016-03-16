@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0e40676742e58eec7c7c644d20da8e4d",
-    "content-hash": "c7600f73a561163cdf77ee24329b8c17",
+    "hash": "7e61b5b358f380428cda29a9499cd4a3",
+    "content-hash": "dcfcea2d6db5c922432be456c725b5f9",
     "packages": [
         {
             "name": "composer/installers",
@@ -457,16 +457,6 @@
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/PdfHandler.git",
                 "reference": "REL1_26"
-            },
-            "type": "mediawiki-extension"
-        },
-        {
-            "name": "mediawiki/Preloader",
-            "version": "1.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/troyengel/Preloader.git",
-                "reference": "v1.2.1"
             },
             "type": "mediawiki-extension"
         },
@@ -1178,6 +1168,31 @@
             "time": "2016-01-05 21:50:35"
         },
         {
+            "name": "troyengel/preloader",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/troyengel/Preloader.git",
+                "reference": "9a0fc4d24b37bc3a899cf4304073baddec8b922b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/troyengel/Preloader/zipball/9a0fc4d24b37bc3a899cf4304073baddec8b922b",
+                "reference": "9a0fc4d24b37bc3a899cf4304073baddec8b922b",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Preloader MediaWiki Extension",
+            "time": "2016-03-16 23:43:18"
+        },
+        {
             "name": "wikimedia/assert",
             "version": "v0.2.2",
             "source": {
@@ -1626,6 +1641,7 @@
     "stability-flags": {
         "mediawiki/vector-skin": 20,
         "mediawiki/liquid-threads": 20,
+        "troyengel/preloader": 20,
         "shakeepers/shakepeers-skin": 20
     },
     "prefer-stable": false,

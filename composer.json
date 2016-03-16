@@ -33,7 +33,7 @@
 		"mediawiki/InputBox": "~1.26",
 		"mediawiki/LabeledSectionTransclusion": "~1.26",
 		"mediawiki/ParserFunctions": "~1.26",
-		"mediawiki/Preloader": "~1.2.1",
+		"troyengel/preloader": "dev-master",
 		"mediawiki/EtherpadLite": "~1.26",
 		"mediawiki/RSS": "~1.26",
 		"mediawiki/WikiArticleFeeds": "~1.26",
@@ -188,18 +188,6 @@
 				"url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ParserFunctions.git",
 				"type": "git",
 				"reference": "REL1_26"
-			},
-			"type": "mediawiki-extension"
-		}
-	}, {
-		"type": "package",
-		"package": {
-			"name": "mediawiki/Preloader",
-			"version": "1.2.1",
-			"source": {
-				"url": "https://github.com/troyengel/Preloader.git",
-				"type": "git",
-				"reference": "v1.2.1"
 			},
 			"type": "mediawiki-extension"
 		}
