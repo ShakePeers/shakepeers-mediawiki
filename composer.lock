@@ -1139,12 +1139,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShakePeers/shakepeers-mediawiki-skin.git",
-                "reference": "6bf70bfba93bdfbb6ff8bcec375dd49f2f8534b1"
+                "reference": "819521644134e922f24d4793f6b364d2d550ff77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/6bf70bfba93bdfbb6ff8bcec375dd49f2f8534b1",
-                "reference": "6bf70bfba93bdfbb6ff8bcec375dd49f2f8534b1",
+                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/819521644134e922f24d4793f6b364d2d550ff77",
+                "reference": "819521644134e922f24d4793f6b364d2d550ff77",
                 "shasum": ""
             },
             "type": "mediawiki-skin",
@@ -1153,7 +1153,7 @@
                 "Apache-2.0"
             ],
             "description": "Fork of bootstrap-mediawiki used on shakepeers.org",
-            "time": "2016-03-16 22:15:02"
+            "time": "2016-03-16 23:08:47"
         },
         {
             "name": "shakeepers/sitelinks-search-box",
