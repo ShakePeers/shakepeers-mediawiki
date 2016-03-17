@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7e61b5b358f380428cda29a9499cd4a3",
-    "content-hash": "dcfcea2d6db5c922432be456c725b5f9",
+    "hash": "ef2d894a25d7419c02f839d0f23413b4",
+    "content-hash": "d58d9e58dee160e6c3ceec7d778b7183",
     "packages": [
         {
             "name": "composer/installers",
@@ -1169,16 +1169,16 @@
         },
         {
             "name": "troyengel/preloader",
-            "version": "dev-master",
+            "version": "v1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/troyengel/Preloader.git",
-                "reference": "9a0fc4d24b37bc3a899cf4304073baddec8b922b"
+                "reference": "06e188ef390db404875985d9d0006079af3c480e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/troyengel/Preloader/zipball/9a0fc4d24b37bc3a899cf4304073baddec8b922b",
-                "reference": "9a0fc4d24b37bc3a899cf4304073baddec8b922b",
+                "url": "https://api.github.com/repos/troyengel/Preloader/zipball/06e188ef390db404875985d9d0006079af3c480e",
+                "reference": "06e188ef390db404875985d9d0006079af3c480e",
                 "shasum": ""
             },
             "require": {
@@ -1190,7 +1190,7 @@
                 "MIT"
             ],
             "description": "Preloader MediaWiki Extension",
-            "time": "2016-03-16 23:43:18"
+            "time": "2016-03-17 00:11:09"
         },
         {
             "name": "wikimedia/assert",
@@ -1641,7 +1641,6 @@
     "stability-flags": {
         "mediawiki/vector-skin": 20,
         "mediawiki/liquid-threads": 20,
-        "troyengel/preloader": 20,
         "shakeepers/shakepeers-skin": 20
     },
     "prefer-stable": false,
