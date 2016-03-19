@@ -782,7 +782,7 @@
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/LiquidThreads.git",
-                "reference": "29e9ac18393aa57d2beb1adcfcb212f210926ba4"
+                "reference": "17596780bcfc4d8e5949541c0d4fc79b0fe85ac1"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -800,7 +800,7 @@
                 "GPL-2.0+"
             ],
             "description": "LiquidThreads extension implements a structured discussion system for MediaWiki.",
-            "time": "2016-03-16 21:00:29"
+            "time": "2016-03-18 21:42:45"
         },
         {
             "name": "mediawiki/vector-skin",
@@ -1129,12 +1129,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShakePeers/shakepeers-mediawiki-skin.git",
-                "reference": "eb7bda1b38b05c810559467aa83d00c6c7250151"
+                "reference": "a0228cc3e01a4be7ecfae1c8621bf222565f831f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/eb7bda1b38b05c810559467aa83d00c6c7250151",
-                "reference": "eb7bda1b38b05c810559467aa83d00c6c7250151",
+                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/a0228cc3e01a4be7ecfae1c8621bf222565f831f",
+                "reference": "a0228cc3e01a4be7ecfae1c8621bf222565f831f",
                 "shasum": ""
             },
             "type": "mediawiki-skin",
@@ -1143,7 +1143,7 @@
                 "Apache-2.0"
             ],
             "description": "Fork of bootstrap-mediawiki used on shakepeers.org",
-            "time": "2016-03-17 18:56:25"
+            "time": "2016-03-19 10:59:40"
         },
         {
             "name": "shakeepers/sitelinks-search-box",
