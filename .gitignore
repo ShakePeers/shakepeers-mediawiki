@@ -3,3 +3,4 @@ skins/
 vendor/
 LocalSettings.php
 .htaccess
+robots.txt
