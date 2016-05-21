@@ -20,7 +20,7 @@
 	},
 	"require": {
 		"mediawiki/core": "~1.26.0",
-		"mediawiki/vector-skin": "dev-REL1_26",
+		"mediawiki/vector-skin": "~1.0@dev",
 		"composer/installers": "~1.0.22",
 		"mediawiki/WikiEditor": "~1.26",
 		"mediawiki/liquid-threads": "dev-master",
