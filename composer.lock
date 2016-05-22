@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4122190cdcf683f99331e492dcc27529",
+    "hash": "0d7dc62ab9a6bf158e728f500f924a95",
     "content-hash": "b23308da1c2961b4679b2c18a783c040",
     "packages": [
         {
@@ -1244,12 +1244,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShakePeers/shakepeers-mediawiki-skin.git",
-                "reference": "a0228cc3e01a4be7ecfae1c8621bf222565f831f"
+                "reference": "438a92e195db50ba0e6c20aceae440d7ee50d9c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/a0228cc3e01a4be7ecfae1c8621bf222565f831f",
-                "reference": "a0228cc3e01a4be7ecfae1c8621bf222565f831f",
+                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/438a92e195db50ba0e6c20aceae440d7ee50d9c3",
+                "reference": "438a92e195db50ba0e6c20aceae440d7ee50d9c3",
                 "shasum": ""
             },
             "type": "mediawiki-skin",
@@ -1258,7 +1258,7 @@
                 "Apache-2.0"
             ],
             "description": "Fork of bootstrap-mediawiki used on shakepeers.org",
-            "time": "2016-03-19 10:59:40"
+            "time": "2016-05-22 22:10:54"
         },
         {
             "name": "shakeepers/sitelinks-search-box",
