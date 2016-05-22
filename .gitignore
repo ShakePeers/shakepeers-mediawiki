@@ -1,6 +1,6 @@
 extensions/
 skins/
 vendor/
-LocalSettings.php
 .htaccess
 robots.txt
+dbconfig.php
