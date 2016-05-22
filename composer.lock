@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ef457f8ad5bdbc61b94ca2d541c5ab6c",
-    "content-hash": "e8738ad8d01879ee08acfc9b70b9d6cd",
+    "hash": "4122190cdcf683f99331e492dcc27529",
+    "content-hash": "b23308da1c2961b4679b2c18a783c040",
     "packages": [
         {
             "name": "composer/installers",
@@ -255,300 +255,434 @@
         {
             "name": "mediawiki/BetaFeatures",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/BetaFeatures.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/BetaFeatures-REL1_26-37ba478.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/CategoryTree",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CategoryTree.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/CategoryTree-REL1_26-8d91b0a.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/CheckUser",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/CheckUser.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/CheckUser-REL1_26-710d302.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/Cite",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Cite.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Cite-REL1_26-dc872e6.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/ConfirmEdit",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ConfirmEdit.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/ConfirmEdit-REL1_26-d36751a.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/Description2",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Description2.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Description2-REL1_26-4f6ffb4.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/Duplicator",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Duplicator.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Duplicator-REL1_26-7666ea4.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/Echo",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Echo.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Echo-REL1_26-1d2029d.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/EtherpadLite",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/EtherpadLite.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/EtherpadLite-REL1_26-8a553b8.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/EventLogging",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/EventLogging.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/EventLogging-REL1_26-5ccd162.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/GuidedTour",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/GuidedTour.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/GuidedTour-REL1_26-3ff0c3c.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/InputBox",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/InputBox.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/InputBox-REL1_26-06d8abc.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/LabeledSectionTransclusion",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/LabeledSectionTransclusion.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/LabeledSectionTransclusion-REL1_26-60037a2.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension"
+        },
+        {
+            "name": "mediawiki/LiquidThreads",
+            "version": "1.26",
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/LiquidThreads-REL1_26-dcf4322.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/Lockdown",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Lockdown.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Lockdown-REL1_26-c0f9986.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/MaintenanceShell",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/MaintenanceShell.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/MaintenanceShell-REL1_26-0e4a2f4.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/Math",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Math.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Math-REL1_26-c3a378a.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/Nuke",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Nuke.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Nuke-REL1_26-5763d10.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/OpenGraphMeta",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/OpenGraphMeta.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/OpenGraphMeta-REL1_26-d5bf936.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/ParserFunctions",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ParserFunctions.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/ParserFunctions-REL1_26-81eca7c.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/Parsoid",
             "version": "1.24",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Parsoid.git",
-                "reference": "REL1_24"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Parsoid-REL1_24-b23043f.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/PdfHandler",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/PdfHandler.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/PdfHandler-REL1_26-6d8477d.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/RSS",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/RSS.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/RSS-REL1_26-58e2d8f.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/Renameuser",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Renameuser.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Renameuser-REL1_26-ec6c5cd.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/TextExtracts",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TextExtracts.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/TextExtracts-REL1_26-e399b19.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/TwitterCards",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/TwitterCards.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/TwitterCards-REL1_26-3d57929.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/UserMerge",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/UserMerge.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/UserMerge-REL1_26-8a4faae.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/Variables",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Variables.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Variables-REL1_26-510f243.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/VisualEditor",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/VisualEditor.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/VisualEditor-REL1_26-a733545.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/WikiArticleFeeds",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/WikiArticleFeeds.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/WikiArticleFeeds-REL1_26-bfd22ec.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/WikiEditor",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/WikiEditor.git",
-                "reference": "REL1_26"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/WikiEditor-REL1_26-72db6c7.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
         },
@@ -771,38 +905,16 @@
         {
             "name": "mediawiki/intersection",
             "version": "1.26",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/intersection.git",
-                "reference": "REL1_26"
-            },
-            "type": "mediawiki-extension"
-        },
-        {
-            "name": "mediawiki/liquid-threads",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/LiquidThreads.git",
-                "reference": "2d58063c52ac7dd083bcb6f1946965ab77d9c8ab"
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/intersection-REL1_26-d098af6.tar.gz",
+                "reference": null,
+                "shasum": null
             },
             "require": {
                 "composer/installers": "~1.0"
             },
-            "require-dev": {
-                "jakub-onderka/php-parallel-lint": "0.9.2"
-            },
-            "type": "mediawiki-extension",
-            "scripts": {
-                "test": [
-                    "parallel-lint . --exclude vendor"
-                ]
-            },
-            "license": [
-                "GPL-2.0+"
-            ],
-            "description": "LiquidThreads extension implements a structured discussion system for MediaWiki.",
-            "time": "2016-05-20 20:28:41"
+            "type": "mediawiki-extension"
         },
         {
             "name": "mediawiki/vector-skin",
@@ -1643,7 +1755,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "mediawiki/vector-skin": 20,
-        "mediawiki/liquid-threads": 20,
         "shakeepers/shakepeers-skin": 20
     },
     "prefer-stable": false,
