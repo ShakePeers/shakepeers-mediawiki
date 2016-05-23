@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0d7dc62ab9a6bf158e728f500f924a95",
-    "content-hash": "b23308da1c2961b4679b2c18a783c040",
+    "hash": "3cc4ff0e7ebc41aa3b7de814c6930112",
+    "content-hash": "d2b8ceefa6787026aabe89f4de7eebd0",
     "packages": [
         {
             "name": "composer/installers",
@@ -745,16 +745,16 @@
         },
         {
             "name": "mediawiki/core",
-            "version": "1.26.2",
+            "version": "1.26.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki.git",
-                "reference": "f465524fc4840fb5c8b97e9ee6ffaf2a30c2e644"
+                "reference": "fa11b598b4e396f606c2ffe8a4929c24e0f8cf46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/f465524fc4840fb5c8b97e9ee6ffaf2a30c2e644",
-                "reference": "f465524fc4840fb5c8b97e9ee6ffaf2a30c2e644",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/fa11b598b4e396f606c2ffe8a4929c24e0f8cf46",
+                "reference": "fa11b598b4e396f606c2ffe8a4929c24e0f8cf46",
                 "shasum": ""
             },
             "require": {
@@ -848,9 +848,9 @@
                 "issues": "https://bugs.mediawiki.org/",
                 "irc": "irc://irc.freenode.net/mediawiki",
                 "wiki": "https://www.mediawiki.org/",
-                "source": "https://github.com/wikimedia/mediawiki/tree/1.26.2"
+                "source": "https://github.com/wikimedia/mediawiki/tree/1.26.3"
             },
-            "time": "2015-12-20 23:48:38"
+            "time": "2016-05-20 19:41:33"
         },
         {
             "name": "mediawiki/header-footer",
