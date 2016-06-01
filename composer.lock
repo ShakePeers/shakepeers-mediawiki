@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3cc4ff0e7ebc41aa3b7de814c6930112",
-    "content-hash": "d2b8ceefa6787026aabe89f4de7eebd0",
+    "hash": "0d7dc62ab9a6bf158e728f500f924a95",
+    "content-hash": "b23308da1c2961b4679b2c18a783c040",
     "packages": [
         {
             "name": "composer/installers",
@@ -922,7 +922,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.wikimedia.org/git/mediawiki/skins/Vector.git",
-                "reference": "26f3f8c7329eec51cdf86869dbbc05cbe754741a"
+                "reference": "126cf976ded9e252c857726c844465a12d31004d"
             },
             "require": {
                 "composer/installers": ">1.0.12",
@@ -958,7 +958,7 @@
                 "skin",
                 "wiki"
             ],
-            "time": "2016-05-17 20:06:06"
+            "time": "2016-05-25 20:03:36"
         },
         {
             "name": "oojs/oojs-ui",
