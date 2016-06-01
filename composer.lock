@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0d7dc62ab9a6bf158e728f500f924a95",
-    "content-hash": "b23308da1c2961b4679b2c18a783c040",
+    "hash": "4926ad01d9d9caf76b70684c486752f4",
+    "content-hash": "8f98192e9a643828aced93b884f5836d",
     "packages": [
         {
             "name": "composer/installers",
@@ -645,6 +645,20 @@
             "type": "mediawiki-extension"
         },
         {
+            "name": "mediawiki/Vector",
+            "version": "1.26",
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/skins/Vector-REL1_26-186325f.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-skin"
+        },
+        {
             "name": "mediawiki/VisualEditor",
             "version": "1.26",
             "dist": {
@@ -915,50 +929,6 @@
                 "composer/installers": "~1.0"
             },
             "type": "mediawiki-extension"
-        },
-        {
-            "name": "mediawiki/vector-skin",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://git.wikimedia.org/git/mediawiki/skins/Vector.git",
-                "reference": "126cf976ded9e252c857726c844465a12d31004d"
-            },
-            "require": {
-                "composer/installers": ">1.0.12",
-                "php": ">=5.5.9"
-            },
-            "require-dev": {
-                "jakub-onderka/php-parallel-lint": "0.9.*",
-                "mediawiki/mediawiki-codesniffer": "0.7.1"
-            },
-            "type": "mediawiki-skin",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                },
-                "installer-name": "Vector"
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Trevor Parscal"
-                },
-                {
-                    "name": "Roan Kattouw"
-                }
-            ],
-            "description": "Modern version of the MonoBook skin",
-            "homepage": "https://www.mediawiki.org/wiki/Skin:Vector",
-            "keywords": [
-                "mediawiki",
-                "skin",
-                "wiki"
-            ],
-            "time": "2016-05-25 20:03:36"
         },
         {
             "name": "oojs/oojs-ui",
@@ -1754,7 +1724,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "mediawiki/vector-skin": 20,
         "shakeepers/shakepeers-skin": 20
     },
     "prefer-stable": false,
