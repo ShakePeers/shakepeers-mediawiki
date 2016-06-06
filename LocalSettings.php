@@ -429,9 +429,6 @@ require_once "$IP/extensions/BreadcrumbList/BreadcrumbList.php";
 //Affichage des PDF
 require_once "$IP/extensions/PdfHandler/PdfHandler.php";
 
-//Parsoid
-require_once("$IP/extensions/Parsoid/Parsoid.php");
-
 //Éditeur visuel
 require_once "$IP/extensions/VisualEditor/VisualEditor.php";
 // Enable by default for everybody

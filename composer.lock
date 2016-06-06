@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c4c3597aef832dbd790adafaaadb579a",
-    "content-hash": "b9afe61bd9b53276d71734b6940d6783",
+    "hash": "04f94a436681d10a3e7b94301394242c",
+    "content-hash": "a07206fac046eb728f4823a8a2f4991b",
     "packages": [
         {
             "name": "composer/installers",
@@ -524,20 +524,6 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/ParserFunctions-REL1_26-81eca7c.tar.gz",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "mediawiki-extension"
-        },
-        {
-            "name": "mediawiki/Parsoid",
-            "version": "1.24",
-            "dist": {
-                "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Parsoid-REL1_24-b23043f.tar.gz",
                 "reference": null,
                 "shasum": null
             },
