@@ -48,7 +48,7 @@
 		"mediawiki/ConfirmEdit": "~1.26.0",
 		"shakeepers/page-creator": "~0.3.0",
 		"mediawiki/Variables": "~1.26.0",
-		"mediawiki/bootstrap-skin": "~1.0.47",
+		"mediawiki/bootstrap-skin": "dev-master",
 		"mediawiki/Math": "~1.26.0",
 		"mediawiki/TextExtracts": "~1.26.0",
 		"mediawiki/Description2": "~1.26.0",
@@ -71,6 +71,18 @@
 	"repositories": [{
 		"type": "composer",
 		"url": "https://mwpackagist.netlib.re/"
+	}, {
+		"type": "package",
+		"package": {
+			"name": "mediawiki/bootstrap-skin",
+			"version": "dev-master",
+			"source": {
+				"url": "https://github.com/borkweb/bootstrap-mediawiki.git",
+				"type": "git",
+				"reference": "master"
+			},
+			"type": "mediawiki-skin"
+		}
 	}],
 	"scripts": {
 		"post-install-cmd": [

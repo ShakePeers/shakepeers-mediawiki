@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fd7f7e04318b5af7b5d355e1151df613",
-    "content-hash": "e082786bba5df282dcd4bcf6119f89e8",
+    "hash": "c4c3597aef832dbd790adafaaadb579a",
+    "content-hash": "b9afe61bd9b53276d71734b6940d6783",
     "packages": [
         {
             "name": "composer/installers",
@@ -749,13 +749,14 @@
         },
         {
             "name": "mediawiki/bootstrap-skin",
-            "version": "1.0.47",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/borkweb/bootstrap-mediawiki.git",
                 "reference": "master"
             },
-            "type": "mediawiki-skin"
+            "type": "mediawiki-skin",
+            "time": "2015-01-06 23:24:21"
         },
         {
             "name": "mediawiki/core",
@@ -1724,7 +1725,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "shakeepers/shakepeers-skin": 20
+        "shakeepers/shakepeers-skin": 20,
+        "mediawiki/bootstrap-skin": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
