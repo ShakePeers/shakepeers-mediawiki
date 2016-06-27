@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "04f94a436681d10a3e7b94301394242c",
-    "content-hash": "a07206fac046eb728f4823a8a2f4991b",
+    "hash": "3c317d98402711d8146fc8a3b129c405",
+    "content-hash": "4e3ff99bbc183b4c00a2615b1b6c4a58",
     "packages": [
         {
             "name": "composer/installers",
@@ -1646,7 +1646,7 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.1.0",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",

@@ -20,7 +20,7 @@
 	},
 	"require": {
 		"mediawiki/core": "~1.26.0",
-		"mediawiki/Vector": "~1.26",
+		"mediawiki/Vector": "~1.26.0",
 		"composer/installers": "~1.0.22",
 		"mediawiki/WikiEditor": "~1.26.0",
 		"mediawiki/LiquidThreads": "~1.26.0",
