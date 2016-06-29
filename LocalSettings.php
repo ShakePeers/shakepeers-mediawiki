@@ -283,9 +283,6 @@ $wgRSSUrlWhitelist = array( "*" );
 # Bootstrap
 //require_once("$IP/extensions/Bootstrap/Bootstrap.php");
 
-#Lockdown
-require_once("$IP/extensions/Lockdown/Lockdown.php") ;
-
 # Shakepeers Skin
 require_once("$IP/skins/shakepeers/shakepeers.php") ;
 $wgDefaultSkin = 'shakepeers';

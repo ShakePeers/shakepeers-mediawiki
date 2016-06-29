@@ -37,7 +37,6 @@
 		"mediawiki/EtherpadLite": "~1.27.0",
 		"mediawiki/RSS": "~1.27.0",
 		"mediawiki/WikiArticleFeeds": "~1.27.0",
-		"mediawiki/Lockdown": "~1.27.0",
 		"shakeepers/shakepeers-skin": "dev-develop",
 		"mediawiki/Echo": "~1.27.0",
 		"mediawiki/EventLogging": "~1.27.0",

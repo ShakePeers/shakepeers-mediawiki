@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4fb2b820960872406b17d5e513222c2d",
-    "content-hash": "731b42e133aa9f966f05aa8a91dea14f",
+    "hash": "9268f953cd7428a09d2500e4cf0b75d1",
+    "content-hash": "5aeb91859375cf385ac8b43fc762609e",
     "packages": [
         {
             "name": "composer/installers",
@@ -574,29 +574,6 @@
             "homepage": "https://www.mediawiki.org/wiki/Extension:LiquidThreads",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/LiquidThreads"
-            }
-        },
-        {
-            "name": "mediawiki/Lockdown",
-            "version": "1.27+2c272cc",
-            "source": {
-                "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Lockdown",
-                "reference": "2c272cc"
-            },
-            "dist": {
-                "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Lockdown-REL1_27-2c272cc.tar.gz",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "mediawiki-extension",
-            "homepage": "https://www.mediawiki.org/wiki/Extension:Lockdown",
-            "support": {
-                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Lockdown"
             }
         },
         {
