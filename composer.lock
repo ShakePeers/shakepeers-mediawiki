@@ -1489,12 +1489,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShakePeers/shakepeers-mediawiki-skin.git",
-                "reference": "438a92e195db50ba0e6c20aceae440d7ee50d9c3"
+                "reference": "6f2a6aa7d15e117d5b04cc9ef2a5f6a4895f58cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/438a92e195db50ba0e6c20aceae440d7ee50d9c3",
-                "reference": "438a92e195db50ba0e6c20aceae440d7ee50d9c3",
+                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/6f2a6aa7d15e117d5b04cc9ef2a5f6a4895f58cf",
+                "reference": "6f2a6aa7d15e117d5b04cc9ef2a5f6a4895f58cf",
                 "shasum": ""
             },
             "type": "mediawiki-skin",
@@ -1503,7 +1503,7 @@
                 "Apache-2.0"
             ],
             "description": "Fork of bootstrap-mediawiki used on shakepeers.org",
-            "time": "2016-05-22 22:10:54"
+            "time": "2016-07-02 20:56:15"
         },
         {
             "name": "shakeepers/sitelinks-search-box",
@@ -1934,16 +1934,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.1.1",
+            "version": "v3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "436195b421e8c0493ca3e390c1fbecd8ee08c546"
+                "reference": "39492b8b8fe514163e677bf154fd80f6cc995759"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/436195b421e8c0493ca3e390c1fbecd8ee08c546",
-                "reference": "436195b421e8c0493ca3e390c1fbecd8ee08c546",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/39492b8b8fe514163e677bf154fd80f6cc995759",
+                "reference": "39492b8b8fe514163e677bf154fd80f6cc995759",
                 "shasum": ""
             },
             "require": {
@@ -1993,7 +1993,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2016-05-24 10:06:56"
+            "time": "2016-06-29 05:41:56"
         }
     ],
     "aliases": [],
