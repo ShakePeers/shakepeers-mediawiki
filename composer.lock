@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3c317d98402711d8146fc8a3b129c405",
-    "content-hash": "4e3ff99bbc183b4c00a2615b1b6c4a58",
+    "hash": "0f789a6c36fbd17750e20873b6dc2d4f",
+    "content-hash": "735857dbd665f5a1b71c9b8f3438d65d",
     "packages": [
         {
             "name": "composer/installers",
@@ -1485,16 +1485,16 @@
         },
         {
             "name": "shakeepers/shakepeers-skin",
-            "version": "dev-develop",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShakePeers/shakepeers-mediawiki-skin.git",
-                "reference": "6f2a6aa7d15e117d5b04cc9ef2a5f6a4895f58cf"
+                "reference": "96eb284673a23f2d7eedd18c28d005dac3524d71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/6f2a6aa7d15e117d5b04cc9ef2a5f6a4895f58cf",
-                "reference": "6f2a6aa7d15e117d5b04cc9ef2a5f6a4895f58cf",
+                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/96eb284673a23f2d7eedd18c28d005dac3524d71",
+                "reference": "96eb284673a23f2d7eedd18c28d005dac3524d71",
                 "shasum": ""
             },
             "type": "mediawiki-skin",
@@ -1503,7 +1503,7 @@
                 "Apache-2.0"
             ],
             "description": "Fork of bootstrap-mediawiki used on shakepeers.org",
-            "time": "2016-07-02 20:56:15"
+            "time": "2016-07-02 23:07:04"
         },
         {
             "name": "shakeepers/sitelinks-search-box",
@@ -1999,7 +1999,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "shakeepers/shakepeers-skin": 20,
         "mediawiki/bootstrap-skin": 20
     },
     "prefer-stable": false,
