@@ -5,6 +5,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-jslint');
     grunt.loadNpmTasks('grunt-shipit');
     grunt.loadNpmTasks('shipit-git-update');
+    grunt.loadNpmTasks('shipit-composer-simple');
 
     grunt.initConfig({
         jslint: {
@@ -15,7 +16,10 @@ module.exports = function (grunt) {
         shipit: {
             options: {
                 servers: 'shakepeers@shakepeers.org',
-                postUpdateCmd: 'composer install --no-dev; composer updatedb -- --quick'
+                composer: {
+                    noDev: true,
+                    cmd: 'updatedb -- --quick'
+                }
             },
             staging: {
                 deployTo: 'mediawiki-beta/',
@@ -29,6 +33,6 @@ module.exports = function (grunt) {
     });
 
     grunt.registerTask('lint', ['jslint']);
-    grunt.registerTask('staging', ['shipit:staging', 'update']);
-    grunt.registerTask('prod', ['shipit:prod', 'update']);
+    grunt.registerTask('staging', ['shipit:staging', 'update', 'composer:install', 'composer:cmd']);
+    grunt.registerTask('prod', ['shipit:prod', 'update', 'composer:install', 'composer:cmd']);
 };
