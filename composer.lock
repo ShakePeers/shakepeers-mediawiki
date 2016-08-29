@@ -1025,16 +1025,16 @@
         },
         {
             "name": "mediawiki/core",
-            "version": "1.26.3",
+            "version": "1.26.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki.git",
-                "reference": "fa11b598b4e396f606c2ffe8a4929c24e0f8cf46"
+                "reference": "2e3e7395f1f290fff646510233bf6386fcf01a5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/fa11b598b4e396f606c2ffe8a4929c24e0f8cf46",
-                "reference": "fa11b598b4e396f606c2ffe8a4929c24e0f8cf46",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/2e3e7395f1f290fff646510233bf6386fcf01a5d",
+                "reference": "2e3e7395f1f290fff646510233bf6386fcf01a5d",
                 "shasum": ""
             },
             "require": {
@@ -1128,9 +1128,9 @@
                 "issues": "https://bugs.mediawiki.org/",
                 "irc": "irc://irc.freenode.net/mediawiki",
                 "wiki": "https://www.mediawiki.org/",
-                "source": "https://github.com/wikimedia/mediawiki/tree/1.26.3"
+                "source": "https://github.com/wikimedia/mediawiki/tree/1.26.4"
             },
-            "time": "2016-05-20 19:41:33"
+            "time": "2016-08-23 03:21:22"
         },
         {
             "name": "mediawiki/header-footer",
