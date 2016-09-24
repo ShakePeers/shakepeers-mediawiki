@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "716f99c6a6bcc38ae53204f5be4ec1ce",
-    "content-hash": "f3d3573ab58d8e014627c41248ebf33e",
+    "hash": "28dabfe3852c049bd6a0e7281d25e592",
+    "content-hash": "00dac53c698590b0b31ff2d428d91031",
     "packages": [
         {
             "name": "composer/installers",
@@ -270,7 +270,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/BetaFeatures-REL1_26-37ba478.tar.gz",
-                "reference": null,
+                "reference": "37ba478",
                 "shasum": null
             },
             "require": {
@@ -293,7 +293,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/CategoryTree-REL1_26-8d91b0a.tar.gz",
-                "reference": null,
+                "reference": "8d91b0a",
                 "shasum": null
             },
             "require": {
@@ -316,7 +316,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/CheckUser-REL1_26-710d302.tar.gz",
-                "reference": null,
+                "reference": "710d302",
                 "shasum": null
             },
             "require": {
@@ -339,7 +339,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/Cite-REL1_26-dc872e6.tar.gz",
-                "reference": null,
+                "reference": "dc872e6",
                 "shasum": null
             },
             "require": {
@@ -362,7 +362,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/ConfirmEdit-REL1_26-d36751a.tar.gz",
-                "reference": null,
+                "reference": "d36751a",
                 "shasum": null
             },
             "require": {
@@ -385,7 +385,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/Description2-REL1_26-4f6ffb4.tar.gz",
-                "reference": null,
+                "reference": "4f6ffb4",
                 "shasum": null
             },
             "require": {
@@ -408,7 +408,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/Duplicator-REL1_26-7666ea4.tar.gz",
-                "reference": null,
+                "reference": "7666ea4",
                 "shasum": null
             },
             "require": {
@@ -431,7 +431,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/Echo-REL1_26-1d2029d.tar.gz",
-                "reference": null,
+                "reference": "1d2029d",
                 "shasum": null
             },
             "require": {
@@ -454,7 +454,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/EtherpadLite-REL1_26-8a553b8.tar.gz",
-                "reference": null,
+                "reference": "8a553b8",
                 "shasum": null
             },
             "require": {
@@ -477,7 +477,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/EventLogging-REL1_26-5ccd162.tar.gz",
-                "reference": null,
+                "reference": "5ccd162",
                 "shasum": null
             },
             "require": {
@@ -500,7 +500,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/GuidedTour-REL1_26-3ff0c3c.tar.gz",
-                "reference": null,
+                "reference": "3ff0c3c",
                 "shasum": null
             },
             "require": {
@@ -523,7 +523,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/InputBox-REL1_26-06d8abc.tar.gz",
-                "reference": null,
+                "reference": "06d8abc",
                 "shasum": null
             },
             "require": {
@@ -546,7 +546,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/LabeledSectionTransclusion-REL1_26-60037a2.tar.gz",
-                "reference": null,
+                "reference": "60037a2",
                 "shasum": null
             },
             "require": {
@@ -595,7 +595,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/Lockdown-REL1_26-c0f9986.tar.gz",
-                "reference": null,
+                "reference": "c0f9986",
                 "shasum": null
             },
             "require": {
@@ -618,7 +618,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/MaintenanceShell-REL1_26-0e4a2f4.tar.gz",
-                "reference": null,
+                "reference": "0e4a2f4",
                 "shasum": null
             },
             "require": {
@@ -641,7 +641,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/Math-REL1_26-c3a378a.tar.gz",
-                "reference": null,
+                "reference": "c3a378a",
                 "shasum": null
             },
             "require": {
@@ -664,7 +664,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/Nuke-REL1_26-5763d10.tar.gz",
-                "reference": null,
+                "reference": "5763d10",
                 "shasum": null
             },
             "require": {
@@ -687,7 +687,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/OpenGraphMeta-REL1_26-d5bf936.tar.gz",
-                "reference": null,
+                "reference": "d5bf936",
                 "shasum": null
             },
             "require": {
@@ -710,7 +710,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/ParserFunctions-REL1_26-81eca7c.tar.gz",
-                "reference": null,
+                "reference": "81eca7c",
                 "shasum": null
             },
             "require": {
@@ -733,7 +733,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/PdfHandler-REL1_26-6d8477d.tar.gz",
-                "reference": null,
+                "reference": "5e7ce3b",
                 "shasum": null
             },
             "require": {
@@ -756,7 +756,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/RSS-REL1_26-58e2d8f.tar.gz",
-                "reference": null,
+                "reference": "58e2d8f",
                 "shasum": null
             },
             "require": {
@@ -779,7 +779,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/Renameuser-REL1_26-ec6c5cd.tar.gz",
-                "reference": null,
+                "reference": "ec6c5cd",
                 "shasum": null
             },
             "require": {
@@ -828,7 +828,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/TextExtracts-REL1_26-e399b19.tar.gz",
-                "reference": null,
+                "reference": "e399b19",
                 "shasum": null
             },
             "require": {
@@ -851,7 +851,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/TwitterCards-REL1_26-3d57929.tar.gz",
-                "reference": null,
+                "reference": "3d57929",
                 "shasum": null
             },
             "require": {
@@ -874,7 +874,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/UserMerge-REL1_26-8a4faae.tar.gz",
-                "reference": null,
+                "reference": "8a4faae",
                 "shasum": null
             },
             "require": {
@@ -897,7 +897,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/Variables-REL1_26-510f243.tar.gz",
-                "reference": null,
+                "reference": "510f243",
                 "shasum": null
             },
             "require": {
@@ -920,7 +920,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/skins/Vector-REL1_26-186325f.tar.gz",
-                "reference": null,
+                "reference": "186325f",
                 "shasum": null
             },
             "require": {
@@ -943,7 +943,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/VisualEditor-REL1_26-a733545.tar.gz",
-                "reference": null,
+                "reference": "a733545",
                 "shasum": null
             },
             "require": {
@@ -966,7 +966,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/WikiArticleFeeds-REL1_26-bfd22ec.tar.gz",
-                "reference": null,
+                "reference": "bfd22ec",
                 "shasum": null
             },
             "require": {
@@ -989,7 +989,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/WikiEditor-REL1_26-72db6c7.tar.gz",
-                "reference": null,
+                "reference": "72db6c7",
                 "shasum": null
             },
             "require": {
@@ -1229,7 +1229,7 @@
             "dist": {
                 "type": "tar",
                 "url": "https://extdist.wmflabs.org/dist/extensions/intersection-REL1_26-d098af6.tar.gz",
-                "reference": null,
+                "reference": "d098af6",
                 "shasum": null
             },
             "require": {
@@ -1579,16 +1579,16 @@
         },
         {
             "name": "shakeepers/shakepeers-skin",
-            "version": "0.1.2",
+            "version": "0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShakePeers/shakepeers-mediawiki-skin.git",
-                "reference": "96eb284673a23f2d7eedd18c28d005dac3524d71"
+                "reference": "7649e8b09ddae9e11de0db9dc72a5c4cd3f4422b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/96eb284673a23f2d7eedd18c28d005dac3524d71",
-                "reference": "96eb284673a23f2d7eedd18c28d005dac3524d71",
+                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/7649e8b09ddae9e11de0db9dc72a5c4cd3f4422b",
+                "reference": "7649e8b09ddae9e11de0db9dc72a5c4cd3f4422b",
                 "shasum": ""
             },
             "type": "mediawiki-skin",
@@ -1597,7 +1597,7 @@
                 "Apache-2.0"
             ],
             "description": "Fork of bootstrap-mediawiki used on shakepeers.org",
-            "time": "2016-07-02 23:07:04"
+            "time": "2016-09-24 18:39:32"
         },
         {
             "name": "shakeepers/sitelinks-search-box",
