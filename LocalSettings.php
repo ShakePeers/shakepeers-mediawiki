@@ -439,5 +439,5 @@ wfLoadExtension('TemplateData');
 
 //Piwik
 require_once "$IP/extensions/PiwikIntegration/Piwik.php";
-$wgPiwikURL = "piwik.animafac.net/";
-$wgPiwikIDSite = "4";
+$wgPiwikURL = 'piwik.animafac.net/';
+$wgPiwikIDSite = '4';
