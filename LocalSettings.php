@@ -436,3 +436,8 @@ require_once "$IP/extensions/BetaFeatures/BetaFeatures.php";
 
 //TemplateData
 wfLoadExtension('TemplateData');
+
+//Piwik
+require_once "$IP/extensions/PiwikIntegration/Piwik.php";
+$wgPiwikURL = "piwik.animafac.net/";
+$wgPiwikIDSite = "4";
