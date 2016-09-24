@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "19d6459bae633819c9760cbfca4c9db8",
-    "content-hash": "56a24e15bbabea78f2f30c545b01b8e6",
+    "hash": "813e98ae745fa4a80bea4a4bc8b4ef1e",
+    "content-hash": "082f8a1a8045764730b61d75f6212c32",
     "packages": [
         {
             "name": "composer/installers",
@@ -1620,6 +1620,28 @@
             ],
             "description": "Provide Sitelinks Search Box to Google",
             "time": "2016-01-05 21:50:35"
+        },
+        {
+            "name": "shakepeers/no-toc",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ShakePeers/mediawiki-NoTOC.git",
+                "reference": "bd3dc997b81263dd6ce254b2e60b9b365d4506a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ShakePeers/mediawiki-NoTOC/zipball/bd3dc997b81263dd6ce254b2e60b9b365d4506a6",
+                "reference": "bd3dc997b81263dd6ce254b2e60b9b365d4506a6",
+                "shasum": ""
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "The NoTOC MediaWiki extension hides the table of contents by default.",
+            "time": "2016-09-24 19:13:55"
         },
         {
             "name": "troyengel/preloader",
