@@ -433,3 +433,6 @@ $wgVisualEditorSupportedSkins = ['vector', 'chameleon', 'shakepeers'];
 
 //BetaFeatures
 require_once "$IP/extensions/BetaFeatures/BetaFeatures.php";
+
+//TemplateData
+wfLoadExtension('TemplateData');

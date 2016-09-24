@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "34431951d319a3c7b27886194aa56238",
-    "content-hash": "2021d3f835dea86554fc41510634357b",
+    "hash": "5036bb05661b4210c62b8126e27479ca",
+    "content-hash": "ad9091d89364a7d6dc2e10f8a5d53d4c",
     "packages": [
         {
             "name": "composer/installers",
@@ -789,6 +789,32 @@
             "homepage": "https://www.mediawiki.org/wiki/Extension:Renameuser",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Renameuser"
+            }
+        },
+        {
+            "name": "mediawiki/TemplateData",
+            "version": "1.26+8a1b550",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateData.git",
+                "reference": "8a1b550"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/TemplateData-REL1_26-8a1b550.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:TemplateData",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/TemplateData"
             }
         },
         {
