@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0f789a6c36fbd17750e20873b6dc2d4f",
-    "content-hash": "735857dbd665f5a1b71c9b8f3438d65d",
+    "hash": "751011c5377333a2e452ba646e05352b",
+    "content-hash": "6e2371e0637d9d9e6485926c5d9e00c7",
     "packages": [
         {
             "name": "composer/installers",
@@ -553,15 +553,15 @@
         },
         {
             "name": "mediawiki/LiquidThreads",
-            "version": "1.26+dcf4322",
+            "version": "1.27+b1117c8",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/LiquidThreads.git",
-                "reference": "dcf4322"
+                "reference": "b1117c8"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/LiquidThreads-REL1_26-dcf4322.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/LiquidThreads-REL1_27-b1117c8.tar.gz",
                 "reference": null,
                 "shasum": null
             },
