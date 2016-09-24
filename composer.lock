@@ -570,6 +570,9 @@
             },
             "type": "mediawiki-extension",
             "homepage": "https://www.mediawiki.org/wiki/Extension:LiquidThreads",
+            "keywords": [
+                "mediawiki"
+            ],
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/LiquidThreads"
             }
