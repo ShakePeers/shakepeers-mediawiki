@@ -6,6 +6,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-shipit');
     grunt.loadNpmTasks('shipit-git-update');
     grunt.loadNpmTasks('shipit-composer-simple');
+    grunt.loadNpmTasks('grunt-jsonlint');
+    grunt.loadNpmTasks('grunt-fixpack');
 
     grunt.initConfig({
         jslint: {
@@ -29,10 +31,23 @@ module.exports = function (grunt) {
                 deployTo: 'mediawiki/',
                 branch: 'master'
             }
+        },
+        jsonlint: {
+            manifests: {
+                src: ['*.json'],
+                options: {
+                    format: true
+                }
+            }
+        },
+        fixpack: {
+            package: {
+                src: 'package.json'
+            }
         }
     });
 
-    grunt.registerTask('lint', ['jslint']);
+    grunt.registerTask('lint', ['jslint', 'jsonlint', 'fixpack']);
     grunt.registerTask('staging', ['shipit:staging', 'update', 'composer:install', 'composer:cmd']);
     grunt.registerTask('prod', ['shipit:prod', 'update', 'composer:install', 'composer:cmd']);
 };
