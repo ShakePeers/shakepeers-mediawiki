@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "813e98ae745fa4a80bea4a4bc8b4ef1e",
-    "content-hash": "082f8a1a8045764730b61d75f6212c32",
+    "hash": "2777191bfc18d3f4ee262a9e15d0e280",
+    "content-hash": "932f1f293c7dc7b9f028b0d1cd2c4176",
     "packages": [
         {
             "name": "composer/installers",
@@ -280,6 +280,32 @@
             "homepage": "https://www.mediawiki.org/wiki/Extension:BetaFeatures",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/BetaFeatures"
+            }
+        },
+        {
+            "name": "mediawiki/BlockAndNuke",
+            "version": "1.26+a345400",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/BlockAndNuke.git",
+                "reference": "a345400"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/BlockAndNuke-REL1_26-a345400.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:BlockAndNuke",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/BlockAndNuke"
             }
         },
         {

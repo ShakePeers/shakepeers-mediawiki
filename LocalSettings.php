@@ -444,3 +444,6 @@ $wgPiwikIDSite = '4';
 
 //NoTOC
 require_once "$IP/extensions/NoToc/NoTOC.php";
+
+//BlockAndNuke
+require_once "$IP/extensions/BlockAndNuke/BlockandNuke.php";

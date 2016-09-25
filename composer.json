@@ -67,7 +67,8 @@
     "shakeepers/paypal": "~1.0.2",
     "mediawiki/TemplateData": "~1.26.0",
     "mediawiki/piwik-integration": "~2.4.2",
-    "shakepeers/no-toc": "~0.1.0"
+    "shakepeers/no-toc": "~0.1.0",
+    "mediawiki/BlockAndNuke": "~1.26.0"
   },
   "require-dev": {
     "symfony/var-dumper": "~3.1.0"
