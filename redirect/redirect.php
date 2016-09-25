@@ -8,7 +8,7 @@ use Mediawiki\Api\MediawikiApi;
 require_once __DIR__.'/vendor/autoload.php';
 
 $app = new \Slim\App();
-$app->get('/'.basename(dirname(__DIR__)).'/{num}', function (Request $request, Response $response, $args) {
+$app->get('/{num}', function (Request $request, Response $response, $args) {
     $api = MediawikiApi::newFromApiEndpoint('https://shakepeers.org/api.php');
     $request = FluentRequest::factory()->setAction('query')
         ->setParam('list', 'allpages')
