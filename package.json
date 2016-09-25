@@ -1,0 +1,23 @@
+{
+  "name": "shakepeers-mediawiki",
+  "description": "MediaWiki setup used on shakepeers.org",
+  "version": "0.1.4",
+  "author": "ShakePeers",
+  "bugs": "https://github.com/ShakePeers/shakepeers-mediawiki/issues",
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-fixpack": "~0.1.0",
+    "grunt-jslint": "~1.1.14",
+    "grunt-jsonlint": "~1.1.0",
+    "grunt-shipit": "~1.0.0",
+    "shipit-composer-simple": "~0.1.0",
+    "shipit-git-update": "~0.1.0"
+  },
+  "homepage": "https://shakepeers.org/",
+  "keywords": [
+    "mediawiki"
+  ],
+  "license": "GPL-3.0",
+  "main": "index.php",
+  "repository": "https://github.com/ShakePeers/shakepeers-mediawiki.git"
+}
