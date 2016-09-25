@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2777191bfc18d3f4ee262a9e15d0e280",
-    "content-hash": "932f1f293c7dc7b9f028b0d1cd2c4176",
+    "hash": "5bf2f2e2fda0f27968473f843544f1f5",
+    "content-hash": "eaf9b20efc1c7c62f21a5b2216034378",
     "packages": [
         {
             "name": "composer/installers",
@@ -284,15 +284,15 @@
         },
         {
             "name": "mediawiki/BlockAndNuke",
-            "version": "1.26+a345400",
+            "version": "1.27+d6133b1",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/BlockAndNuke.git",
-                "reference": "a345400"
+                "reference": "d6133b1"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/BlockAndNuke-REL1_26-a345400.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/BlockAndNuke-REL1_27-d6133b1.tar.gz",
                 "reference": null,
                 "shasum": null
             },
