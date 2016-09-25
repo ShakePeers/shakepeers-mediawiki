@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fc760b7913c8d976e24d0c3b4297108b",
-    "content-hash": "dbdb34226e85cc60e62d490e12962cde",
+    "hash": "5bf2f2e2fda0f27968473f843544f1f5",
+    "content-hash": "eaf9b20efc1c7c62f21a5b2216034378",
     "packages": [
         {
             "name": "composer/installers",
@@ -280,6 +280,32 @@
             "homepage": "https://www.mediawiki.org/wiki/Extension:BetaFeatures",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/BetaFeatures"
+            }
+        },
+        {
+            "name": "mediawiki/BlockAndNuke",
+            "version": "1.27+d6133b1",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/BlockAndNuke.git",
+                "reference": "d6133b1"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/BlockAndNuke-REL1_27-d6133b1.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:BlockAndNuke",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/BlockAndNuke"
             }
         },
         {
@@ -560,15 +586,15 @@
         },
         {
             "name": "mediawiki/LiquidThreads",
-            "version": "1.26+dcf4322",
+            "version": "1.27+b1117c8",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/LiquidThreads.git",
-                "reference": "dcf4322"
+                "reference": "b1117c8"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/LiquidThreads-REL1_26-dcf4322.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/LiquidThreads-REL1_27-b1117c8.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -577,6 +603,9 @@
             },
             "type": "mediawiki-extension",
             "homepage": "https://www.mediawiki.org/wiki/Extension:LiquidThreads",
+            "keywords": [
+                "mediawiki"
+            ],
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/LiquidThreads"
             }
@@ -786,6 +815,32 @@
             "homepage": "https://www.mediawiki.org/wiki/Extension:Renameuser",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Renameuser"
+            }
+        },
+        {
+            "name": "mediawiki/TemplateData",
+            "version": "1.26+8a1b550",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateData.git",
+                "reference": "8a1b550"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/TemplateData-REL1_26-8a1b550.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:TemplateData",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/TemplateData"
             }
         },
         {
@@ -1213,6 +1268,64 @@
             }
         },
         {
+            "name": "mediawiki/piwik-integration",
+            "version": "v2.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DaSchTour/piwik-mediawiki-extension.git",
+                "reference": "e3fd9793b89a30d8385969f76de37e1c637803e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DaSchTour/piwik-mediawiki-extension/zipball/e3fd9793b89a30d8385969f76de37e1c637803e5",
+                "reference": "e3fd9793b89a30d8385969f76de37e1c637803e5",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "1.*,>=1.0.1",
+                "php": ">=5.3.0"
+            },
+            "type": "mediawiki-extension",
+            "autoload": {
+                "files": [
+                    "Piwik.php"
+                ],
+                "classmap": [
+                    "Piwik.hooks.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Youri van den Bogert",
+                    "email": "youri@vandenbogert.eu",
+                    "homepage": "https://github.com/YOUR1",
+                    "role": "Developer"
+                },
+                {
+                    "name": "DaSch",
+                    "email": "dasch@daschmedia.de",
+                    "homepage": "http://www.daschmedia.de",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Isb1009",
+                    "email": "isb1009@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Piwik Integration extension inserts your Piwik tracking code to the bottom of every page.",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:Piwik_Integration",
+            "keywords": [
+                "mediawiki",
+                "piwik"
+            ],
+            "time": "2014-11-07 22:58:44"
+        },
+        {
             "name": "oojs/oojs-ui",
             "version": "v0.12.12",
             "source": {
@@ -1492,16 +1605,16 @@
         },
         {
             "name": "shakeepers/shakepeers-skin",
-            "version": "0.1.2",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShakePeers/shakepeers-mediawiki-skin.git",
-                "reference": "96eb284673a23f2d7eedd18c28d005dac3524d71"
+                "reference": "113e0d7455e37e78c49dcebb6c9b6cd9d1a6d724"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/96eb284673a23f2d7eedd18c28d005dac3524d71",
-                "reference": "96eb284673a23f2d7eedd18c28d005dac3524d71",
+                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/113e0d7455e37e78c49dcebb6c9b6cd9d1a6d724",
+                "reference": "113e0d7455e37e78c49dcebb6c9b6cd9d1a6d724",
                 "shasum": ""
             },
             "type": "mediawiki-skin",
@@ -1510,7 +1623,7 @@
                 "Apache-2.0"
             ],
             "description": "Fork of bootstrap-mediawiki used on shakepeers.org",
-            "time": "2016-07-02 23:07:04"
+            "time": "2016-09-24 18:57:20"
         },
         {
             "name": "shakeepers/sitelinks-search-box",
@@ -1533,6 +1646,28 @@
             ],
             "description": "Provide Sitelinks Search Box to Google",
             "time": "2016-01-05 21:50:35"
+        },
+        {
+            "name": "shakepeers/no-toc",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ShakePeers/mediawiki-NoTOC.git",
+                "reference": "bd3dc997b81263dd6ce254b2e60b9b365d4506a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ShakePeers/mediawiki-NoTOC/zipball/bd3dc997b81263dd6ce254b2e60b9b365d4506a6",
+                "reference": "bd3dc997b81263dd6ce254b2e60b9b365d4506a6",
+                "shasum": ""
+            },
+            "type": "mediawiki-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "The NoTOC MediaWiki extension hides the table of contents by default.",
+            "time": "2016-09-24 19:13:55"
         },
         {
             "name": "troyengel/preloader",
@@ -1564,7 +1699,7 @@
             "version": "v0.2.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wmde/Assert.git",
+                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/libs/Assert",
                 "reference": "2da55927525975f8d52825fc3ee02e5e36f5036c"
             },
             "dist": {
@@ -2006,6 +2141,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "shakeepers/shakepeers-skin": 20,
         "mediawiki/bootstrap-skin": 20
     },
     "prefer-stable": false,
