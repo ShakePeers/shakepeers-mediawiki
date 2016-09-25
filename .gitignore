@@ -1,7 +1,6 @@
 extensions/
 skins/
 vendor/
-.htaccess
 robots.txt
 dbconfig.php
 node_modules/

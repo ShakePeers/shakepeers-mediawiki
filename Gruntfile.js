@@ -27,6 +27,9 @@ module.exports = function (grunt) {
                 deployTo: 'mediawiki-beta/',
                 branch: 'develop'
             },
+            'staging-redirect': {
+                deployTo: 'mediawiki-beta/redirect/'
+            },
             prod: {
                 deployTo: 'mediawiki/',
                 branch: 'master'
@@ -34,7 +37,7 @@ module.exports = function (grunt) {
         },
         jsonlint: {
             manifests: {
-                src: ['*.json'],
+                src: ['*.json', 'redirect/*.json'],
                 options: {
                     format: true
                 }
@@ -48,6 +51,6 @@ module.exports = function (grunt) {
     });
 
     grunt.registerTask('lint', ['jslint', 'jsonlint', 'fixpack']);
-    grunt.registerTask('staging', ['shipit:staging', 'update', 'composer:install', 'composer:cmd']);
+    grunt.registerTask('staging', ['shipit:staging', 'update', 'composer:install', 'composer:cmd', 'shipit:staging-redirect', 'composer:install']);
     grunt.registerTask('prod', ['shipit:prod', 'update', 'composer:install', 'composer:cmd']);
 };

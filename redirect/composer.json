@@ -1,0 +1,12 @@
+{
+  "name": "shakepeers/shakepeers-mediawiki-redirect",
+  "description": "Script that redirects short URLs to MediaWiki URLs",
+  "license": "GPL-3.0",
+  "require": {
+    "slim/slim": "~3.5.0",
+    "addwiki/mediawiki-api-base": "~2.2.1"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "~3.1.0"
+  }
+}
