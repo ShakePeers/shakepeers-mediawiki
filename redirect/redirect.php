@@ -22,6 +22,6 @@ $app->get('/{num}', function (Request $request, Response $response, $args) {
     }
     array_multisort($ids, SORT_ASC, $pages['query']['allpages']);
 
-    return $response->withRedirect('index.php/'.$pages['query']['allpages'][$args['num']]['title']);
+    return $response->withRedirect('index.php/'.rawurlencode($pages['query']['allpages'][$args['num']]['title']));
 });
 $app->run();
