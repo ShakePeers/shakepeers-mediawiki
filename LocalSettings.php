@@ -277,7 +277,7 @@ $wgRSSUrlWhitelist = ['*'];
 require_once "$IP/extensions/Lockdown/Lockdown.php";
 
 // Shakepeers Skin
-require_once "$IP/skins/shakepeers/shakepeers.php";
+wfLoadSkin('shakepeers');
 $wgDefaultSkin = 'shakepeers';
 
 //require_once("$IP/skins/chameleon/Chameleon.php");
