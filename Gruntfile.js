@@ -37,7 +37,7 @@ module.exports = function (grunt) {
         },
         jsonlint: {
             manifests: {
-                src: ['*.json', 'redirect/*.json'],
+                src: ['*.json'],
                 options: {
                     format: true
                 }

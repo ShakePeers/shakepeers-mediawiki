@@ -447,3 +447,6 @@ require_once "$IP/extensions/NoToc/NoTOC.php";
 
 //BlockAndNuke
 require_once "$IP/extensions/BlockAndNuke/BlockAndNuke.php";
+
+//ShortUrls
+wfLoadExtension('ShortUrls');
