@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5bf2f2e2fda0f27968473f843544f1f5",
-    "content-hash": "eaf9b20efc1c7c62f21a5b2216034378",
+    "hash": "85f47a9eacd11aa21988755065aaeec7",
+    "content-hash": "ed06e60c7aeb722c06b47c3dd7085bc5",
     "packages": [
         {
             "name": "composer/installers",
@@ -677,6 +677,32 @@
             "homepage": "https://www.mediawiki.org/wiki/Extension:Math",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Math"
+            }
+        },
+        {
+            "name": "mediawiki/MultimediaViewer",
+            "version": "1.26+a312b66",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/MultimediaViewer.git",
+                "reference": "a312b66"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/MultimediaViewer-REL1_26-a312b66.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:MultimediaViewer",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/MultimediaViewer"
             }
         },
         {

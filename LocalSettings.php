@@ -447,3 +447,6 @@ require_once "$IP/extensions/NoToc/NoTOC.php";
 
 //BlockAndNuke
 require_once "$IP/extensions/BlockAndNuke/BlockAndNuke.php";
+
+//MultimediaViewer
+require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
