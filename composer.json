@@ -40,7 +40,7 @@
     "mediawiki/RSS": "~1.26.0",
     "mediawiki/WikiArticleFeeds": "~1.26.0",
     "mediawiki/Lockdown": "~1.26.0",
-    "shakeepers/shakepeers-skin": "~1.0.0",
+    "shakeepers/shakepeers-skin": "~1.0.2",
     "mediawiki/Echo": "~1.26.0",
     "mediawiki/EventLogging": "~1.26.0",
     "mediawiki/GuidedTour": "~1.26.0",
@@ -68,7 +68,8 @@
     "mediawiki/TemplateData": "~1.26.0",
     "mediawiki/piwik-integration": "~2.4.2",
     "shakepeers/no-toc": "~0.1.0",
-    "mediawiki/BlockAndNuke": "~1.27.0"
+    "mediawiki/BlockAndNuke": "~1.27.0",
+    "mediawiki/MultimediaViewer": "~1.26.0"
   },
   "require-dev": {
     "symfony/var-dumper": "~3.1.0"

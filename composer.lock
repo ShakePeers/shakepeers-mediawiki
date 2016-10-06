@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "71aa7e49c275d0fd52717decbadc56ab",
-    "content-hash": "2054d8fe6cc853349846f8d76cb76381",
+    "hash": "5bff4dee3c8790a702329f7b457b7cfe",
+    "content-hash": "1a5153db99647f2488d1d03ef48cf702",
     "packages": [
         {
             "name": "composer/installers",
@@ -677,6 +677,32 @@
             "homepage": "https://www.mediawiki.org/wiki/Extension:Math",
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/Math"
+            }
+        },
+        {
+            "name": "mediawiki/MultimediaViewer",
+            "version": "1.26+a312b66",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/MultimediaViewer.git",
+                "reference": "a312b66"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/MultimediaViewer-REL1_26-a312b66.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:MultimediaViewer",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/MultimediaViewer"
             }
         },
         {
@@ -1605,16 +1631,16 @@
         },
         {
             "name": "shakeepers/shakepeers-skin",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShakePeers/shakepeers-mediawiki-skin.git",
-                "reference": "a2761d45b02c94f686ef4077db5c4adda8bbacc9"
+                "reference": "7f55083f1eb3c27d9fcac36e0dc02db18b346c96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/a2761d45b02c94f686ef4077db5c4adda8bbacc9",
-                "reference": "a2761d45b02c94f686ef4077db5c4adda8bbacc9",
+                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/7f55083f1eb3c27d9fcac36e0dc02db18b346c96",
+                "reference": "7f55083f1eb3c27d9fcac36e0dc02db18b346c96",
                 "shasum": ""
             },
             "type": "mediawiki-skin",
@@ -1623,7 +1649,7 @@
                 "Apache-2.0"
             ],
             "description": "Fork of bootstrap-mediawiki used on shakepeers.org",
-            "time": "2016-09-26 12:27:06"
+            "time": "2016-10-06 08:22:59"
         },
         {
             "name": "shakeepers/sitelinks-search-box",
@@ -1699,12 +1725,12 @@
             "version": "v0.2.2",
             "source": {
                 "type": "git",
-                "url": "https://gerrit.wikimedia.org/r/p/mediawiki/libs/Assert",
+                "url": "https://github.com/wikimedia/Assert.git",
                 "reference": "2da55927525975f8d52825fc3ee02e5e36f5036c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wmde/Assert/zipball/2da55927525975f8d52825fc3ee02e5e36f5036c",
+                "url": "https://api.github.com/repos/wikimedia/Assert/zipball/2da55927525975f8d52825fc3ee02e5e36f5036c",
                 "reference": "2da55927525975f8d52825fc3ee02e5e36f5036c",
                 "shasum": ""
             },
@@ -2076,16 +2102,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.1.4",
+            "version": "v3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "62ee73706c421654a4c840028954510277f7dfc8"
+                "reference": "70bfe927b86ba9999aeebd829715b0bb2cd39a10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/62ee73706c421654a4c840028954510277f7dfc8",
-                "reference": "62ee73706c421654a4c840028954510277f7dfc8",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/70bfe927b86ba9999aeebd829715b0bb2cd39a10",
+                "reference": "70bfe927b86ba9999aeebd829715b0bb2cd39a10",
                 "shasum": ""
             },
             "require": {
@@ -2135,7 +2161,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2016-08-31 09:05:42"
+            "time": "2016-09-29 14:13:09"
         }
     ],
     "aliases": [],
