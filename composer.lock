@@ -776,15 +776,15 @@
         },
         {
             "name": "mediawiki/PdfHandler",
-            "version": "1.26+6d8477d",
+            "version": "1.26+5e7ce3b",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/PdfHandler.git",
-                "reference": "6d8477d"
+                "reference": "5e7ce3b"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/PdfHandler-REL1_26-6d8477d.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/PdfHandler-REL1_26-5e7ce3b.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -793,6 +793,9 @@
             },
             "type": "mediawiki-extension",
             "homepage": "https://www.mediawiki.org/wiki/Extension:PdfHandler",
+            "keywords": [
+                "mediawiki"
+            ],
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/PdfHandler"
             }
