@@ -315,13 +315,13 @@ require_once "$IP/extensions/PageContributors/PageContributors.php";
 $wgUseInstantCommons = false;
 //À la main pour forcer HTTPS
 $wgForeignFileRepos[] = [
-   'class'                   => 'ForeignAPIRepo',
-   'name'                    => 'wikimediacommons',
-   'apibase'                 => 'https://commons.wikimedia.org/w/api.php',
-   'hashLevels'              => 2,
-   'fetchDescription'        => true,
-   'descriptionCacheExpiry'  => 43200,
-   'apiThumbCacheExpiry'     => 86400,
+    'class'                   => 'ForeignAPIRepo',
+    'name'                    => 'wikimediacommons',
+    'apibase'                 => 'https://commons.wikimedia.org/w/api.php',
+    'hashLevels'              => 2,
+    'fetchDescription'        => true,
+    'descriptionCacheExpiry'  => 43200,
+    'apiThumbCacheExpiry'     => 86400,
 ];
 //HTTPS pour la connexion
 $wgSecureLogin = true;
