@@ -1,4 +1,5 @@
 <?php
+
 define('NS_BROUILLON', 3000);
 define('NS_BROUILLON_TALK', 3001);
 define('NS_REVISION', 4000);
