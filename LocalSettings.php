@@ -6,6 +6,7 @@ if (!defined('MEDIAWIKI')) {
 }
 
 require_once __DIR__.'/dbconfig.php';
+require_once __DIR__.'/namespaces.php';
 
 // Uncomment this to disable output compression
 // $wgDisableOutputCompression = true;
@@ -133,8 +134,6 @@ $wgNamespaceProtection[NS_MAIN] = ['edit-main'];
 $wgGroupPermissions['editeur']['edit-main'] = true;
 
 // Brouillon
-define('NS_BROUILLON', 3000);
-define('NS_BROUILLON_TALK', 3001);
 $wgExtraNamespaces[NS_BROUILLON] = 'Brouillon';
 $wgExtraNamespaces[NS_BROUILLON_TALK] = 'Brouillon_talk';
 $wgContentNamespaces[] = 3000;
@@ -143,8 +142,6 @@ $wgNamespacesWithSubpages[NS_BROUILLON] = false;
 $wgNamespacesWithSubpages[NS_BROUILLON_TALK] = false;
 
 // Révision
-define('NS_REVISION', 4000);
-define('NS_REVISION_TALK', 4001);
 $wgExtraNamespaces[NS_REVISION] = 'Revision';
 $wgExtraNamespaces[NS_REVISION_TALK] = 'Revision_talk';
 $wgContentNamespaces[] = 4000;
@@ -153,8 +150,6 @@ $wgNamespacesWithSubpages[NS_REVISION] = true;
 $wgNamespacesWithSubpages[NS_REVISION_TALK] = true;
 
 // Publication
-define('NS_PUBLICATION', 5000);
-define('NS_PUBLICATION_TALK', 5001);
 $wgExtraNamespaces[NS_PUBLICATION] = 'Publication';
 $wgExtraNamespaces[NS_PUBLICATION_TALK] = 'Publication_talk';
 $wgContentNamespaces[] = 5000;
