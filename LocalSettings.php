@@ -269,9 +269,6 @@ require_once "$IP/extensions/RSS/RSS.php";
 require_once "$IP/extensions/WikiArticleFeeds/WikiArticleFeeds.php";
 $wgRSSUrlWhitelist = ['*'];
 
-//Lockdown
-require_once "$IP/extensions/Lockdown/Lockdown.php";
-
 // Shakepeers Skin
 wfLoadSkin('shakepeers');
 $wgDefaultSkin = 'shakepeers';
