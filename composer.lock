@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "71279fc60d7a9f7b23560a0164bfdae5",
-    "content-hash": "2c29e099a38fae141f2dd7990524dbdf",
+    "hash": "12e16d985e35200dd53e6a6f9e7794b2",
+    "content-hash": "fe23ac58a4a6dca2a2602093066b7173",
     "packages": [
         {
             "name": "composer/installers",
@@ -1327,16 +1327,16 @@
         },
         {
             "name": "mediawiki/header-footer",
-            "version": "2.2.0",
+            "version": "dev-development",
             "source": {
                 "type": "git",
                 "url": "https://github.com/enterprisemediawiki/HeaderFooter.git",
-                "reference": "a06c320887233a0ede8e3f42fea0ba2d0dfbbee5"
+                "reference": "fc5a159cbd328d32fd21ca4b0a4e90509aa5ae7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/enterprisemediawiki/HeaderFooter/zipball/a06c320887233a0ede8e3f42fea0ba2d0dfbbee5",
-                "reference": "a06c320887233a0ede8e3f42fea0ba2d0dfbbee5",
+                "url": "https://api.github.com/repos/enterprisemediawiki/HeaderFooter/zipball/fc5a159cbd328d32fd21ca4b0a4e90509aa5ae7d",
+                "reference": "fc5a159cbd328d32fd21ca4b0a4e90509aa5ae7d",
                 "shasum": ""
             },
             "require": {
@@ -1373,7 +1373,7 @@
                 "header",
                 "mediawiki"
             ],
-            "time": "2014-11-20 20:28:48"
+            "time": "2015-02-03 00:50:40"
         },
         {
             "name": "mediawiki/intersection",
@@ -1754,12 +1754,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShakePeers/shakepeers-mediawiki-skin.git",
-                "reference": "f9f63f2587e673152a40300dbfcbc817df950727"
+                "reference": "d560872cce33923d0af194b3c481e817f1f90b6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/f9f63f2587e673152a40300dbfcbc817df950727",
-                "reference": "f9f63f2587e673152a40300dbfcbc817df950727",
+                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/d560872cce33923d0af194b3c481e817f1f90b6a",
+                "reference": "d560872cce33923d0af194b3c481e817f1f90b6a",
                 "shasum": ""
             },
             "type": "mediawiki-skin",
@@ -1768,7 +1768,7 @@
                 "Apache-2.0"
             ],
             "description": "Fork of bootstrap-mediawiki used on shakepeers.org",
-            "time": "2016-10-06 08:23:06"
+            "time": "2016-11-02 22:37:54"
         },
         {
             "name": "shakeepers/sitelinks-search-box",
@@ -2549,6 +2549,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "shakeepers/shakepeers-skin": 20,
+        "mediawiki/header-footer": 20,
         "mediawiki/bootstrap-skin": 20
     },
     "prefer-stable": false,
