@@ -6,6 +6,7 @@ if (!defined('MEDIAWIKI')) {
 }
 
 require_once __DIR__.'/dbconfig.php';
+require_once __DIR__.'/namespaces.php';
 
 // Uncomment this to disable output compression
 // $wgDisableOutputCompression = true;
@@ -111,9 +112,13 @@ $wgResourceLoaderMaxQueryLength = -1;
 // End of automatically generated settings.
 // Add more configuration options below.
 
-//############################ Shakepeers
+/*
+Shakepeers
+ */
 
-//######## 0. Global settings
+/*
+0. Global settings
+ */
 // We enable Lockdown
 // Global user rights
 $wgGroupPermissions['*']['edit'] = false;
@@ -133,8 +138,6 @@ $wgNamespaceProtection[NS_MAIN] = ['edit-main'];
 $wgGroupPermissions['editeur']['edit-main'] = true;
 
 // Brouillon
-define('NS_BROUILLON', 3000);
-define('NS_BROUILLON_TALK', 3001);
 $wgExtraNamespaces[NS_BROUILLON] = 'Brouillon';
 $wgExtraNamespaces[NS_BROUILLON_TALK] = 'Brouillon_talk';
 $wgContentNamespaces[] = 3000;
@@ -143,8 +146,6 @@ $wgNamespacesWithSubpages[NS_BROUILLON] = false;
 $wgNamespacesWithSubpages[NS_BROUILLON_TALK] = false;
 
 // Révision
-define('NS_REVISION', 4000);
-define('NS_REVISION_TALK', 4001);
 $wgExtraNamespaces[NS_REVISION] = 'Revision';
 $wgExtraNamespaces[NS_REVISION_TALK] = 'Revision_talk';
 $wgContentNamespaces[] = 4000;
@@ -153,8 +154,6 @@ $wgNamespacesWithSubpages[NS_REVISION] = true;
 $wgNamespacesWithSubpages[NS_REVISION_TALK] = true;
 
 // Publication
-define('NS_PUBLICATION', 5000);
-define('NS_PUBLICATION_TALK', 5001);
 $wgExtraNamespaces[NS_PUBLICATION] = 'Publication';
 $wgExtraNamespaces[NS_PUBLICATION_TALK] = 'Publication_talk';
 $wgContentNamespaces[] = 5000;
@@ -201,10 +200,10 @@ $oldtz = getenv('TZ');
 putenv("TZ=$wgLocaltimezone");
 
 wfLoadSkin('Vector');
-//error_reporting( -1 );
-//ini_set( 'display_errors', 1 );
 
-//######## I. Plugin require zone
+/*
+I. Plugin require zone
+ */
 // Wiki Editor
 require_once "$IP/extensions/WikiEditor/WikiEditor.php";
 // Enables use of WikiEditor by default but still allow users to disable it in preferences
@@ -270,49 +269,34 @@ require_once "$IP/extensions/RSS/RSS.php";
 require_once "$IP/extensions/WikiArticleFeeds/WikiArticleFeeds.php";
 $wgRSSUrlWhitelist = ['*'];
 
-// Bootstrap
-//require_once("$IP/extensions/Bootstrap/Bootstrap.php");
-
 // Shakepeers Skin
 wfLoadSkin('shakepeers');
 $wgDefaultSkin = 'shakepeers';
-
-//require_once("$IP/skins/chameleon/Chameleon.php");
-//$wgDefaultSkin = 'chameleon';
-
-//require_once("$IP/extensions/Annotator/Annotator.php");
 
 // HideNamespace extension
 require_once "$IP/extensions/HideNamespace/HideNamespace.php";
 $wgHidensNamespaces = [NS_BROUILLON, NS_REVISION, NS_PUBLICATION, NS_MAIN];
 
-//require_once("$IP/extensions/Echo/Echo.php");
 require_once "$IP/extensions/EventLogging/EventLogging.php";
 require_once "$IP/extensions/GuidedTour/GuidedTour.php";
 
 
- $wgShowExceptionDetails = true;
+$wgShowExceptionDetails = true;
 
- require_once __DIR__.'/extensions/Duplicator/Duplicator.php';
- //require_once( "$IP/extensions/Reviews/Reviews.php" );
+require_once __DIR__.'/extensions/Duplicator/Duplicator.php';
 
- $wgShowSQLErrors = 1;
+$wgShowSQLErrors = 1;
 
-  $wgGroupPermissions['*']['createaccount'] = true;
+$wgGroupPermissions['*']['createaccount'] = true;
 
-  require_once "$IP/extensions/HeaderFooter/HeaderFooter.php";
+require_once "$IP/extensions/HeaderFooter/HeaderFooter.php";
 
-  require_once "$IP/extensions/UserMerge/UserMerge.php";
+require_once "$IP/extensions/UserMerge/UserMerge.php";
 // By default nobody can use this function, enable for bureaucrat?
 $wgGroupPermissions['sysop']['usermerge'] = true;
 
 //ConfirmEdit
 require_once "$IP/extensions/ConfirmEdit/ConfirmEdit.php";
-//require_once( "$IP/extensions/ConfirmEdit/QuestyCaptcha.php");
-//$wgCaptchaClass = 'QuestyCaptcha';
-//$wgCaptchaQuestions[] = array(
-//'question'=>'Quelle est la couleur du logo de ShakePeers ?<br/>(Deux réponses possibles)',
-//'answer'=>array('orange', 'bleu'));
 wfLoadExtension('ConfirmEdit/ReCaptchaNoCaptcha');
 $wgCaptchaClass = 'ReCaptchaNoCaptcha';
 $wgGroupPermissions['emailconfirmed']['skipcaptcha'] = true;
@@ -324,21 +308,17 @@ require_once "$IP/extensions/PageCreator/PageCreator.php";
 // PageContributors
 require_once "$IP/extensions/PageContributors/PageContributors.php";
 
-//Review and Merge
-//$ReviewAndMergeNamespace = NS_REVISION;
-//require_once 'extensions/ReviewAndMerge/ReviewAndMerge.php';
-
 //Commons
 $wgUseInstantCommons = false;
 //À la main pour forcer HTTPS
 $wgForeignFileRepos[] = [
-   'class'                   => 'ForeignAPIRepo',
-   'name'                    => 'wikimediacommons',
-   'apibase'                 => 'https://commons.wikimedia.org/w/api.php',
-   'hashLevels'              => 2,
-   'fetchDescription'        => true,
-   'descriptionCacheExpiry'  => 43200,
-   'apiThumbCacheExpiry'     => 86400,
+    'class'                   => 'ForeignAPIRepo',
+    'name'                    => 'wikimediacommons',
+    'apibase'                 => 'https://commons.wikimedia.org/w/api.php',
+    'hashLevels'              => 2,
+    'fetchDescription'        => true,
+    'descriptionCacheExpiry'  => 43200,
+    'apiThumbCacheExpiry'     => 86400,
 ];
 //HTTPS pour la connexion
 $wgSecureLogin = true;
@@ -391,21 +371,13 @@ require_once "$IP/extensions/TwitterCards/TwitterCards.php";
 require_once "$IP/extensions/Description2/Description2.php";
 require_once "$IP/extensions/OpenGraphMeta/OpenGraphMeta.php";
 
-//Fork
-// Change authors
-//require_once("$IP/extensions/ChangeAuthor/ChangeAuthor.php");
-//$wgGroupPermissions['editeur']['changeauthor'] = true; // Only editeur can use ChangeAuthor
-
-
 //PayPal
 include 'extensions/Paypal/Paypal.php';
-
 
 //CheckUser
 require_once "$IP/extensions/CheckUser/CheckUser.php";
 $wgGroupPermissions['sysop']['checkuser'] = true;
 $wgGroupPermissions['sysop']['checkuser-log'] = true;
-
 
 //SitelinksSearchBox
 require_once "$IP/extensions/SitelinksSearchBox/SitelinksSearchBox.php";
@@ -423,7 +395,6 @@ $wgDefaultUserOptions['visualeditor-enable'] = 1;
 // Don't allow users to disable it
 $wgHiddenPrefs[] = 'visualeditor-enable';
 // OPTIONAL: Enable VisualEditor's experimental code features
-//$wgDefaultUserOptions['visualeditor-enable-experimental'] = 1;
 $wgVisualEditorParsoidURL = 'http://localhost:8142';
 $wgVisualEditorParsoidPrefix = 'localhost';
 $wgVisualEditorSupportedSkins = ['vector', 'chameleon', 'shakepeers'];
