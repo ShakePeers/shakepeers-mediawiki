@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "12e16d985e35200dd53e6a6f9e7794b2",
-    "content-hash": "fe23ac58a4a6dca2a2602093066b7173",
+    "hash": "5daa273bb550bfc6434beadde8bdcd8d",
+    "content-hash": "14de2db6a0062338853767ed9c7273d5",
     "packages": [
         {
             "name": "composer/installers",
@@ -1750,16 +1750,16 @@
         },
         {
             "name": "shakeepers/shakepeers-skin",
-            "version": "dev-develop",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShakePeers/shakepeers-mediawiki-skin.git",
-                "reference": "d560872cce33923d0af194b3c481e817f1f90b6a"
+                "reference": "36ffa22c9b89519cc68d87d9685873591ae3d0ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/d560872cce33923d0af194b3c481e817f1f90b6a",
-                "reference": "d560872cce33923d0af194b3c481e817f1f90b6a",
+                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/36ffa22c9b89519cc68d87d9685873591ae3d0ac",
+                "reference": "36ffa22c9b89519cc68d87d9685873591ae3d0ac",
                 "shasum": ""
             },
             "type": "mediawiki-skin",
@@ -1768,7 +1768,7 @@
                 "Apache-2.0"
             ],
             "description": "Fork of bootstrap-mediawiki used on shakepeers.org",
-            "time": "2016-11-02 22:37:54"
+            "time": "2016-11-02 22:45:14"
         },
         {
             "name": "shakeepers/sitelinks-search-box",
@@ -2548,7 +2548,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "shakeepers/shakepeers-skin": 20,
         "mediawiki/header-footer": 20,
         "mediawiki/bootstrap-skin": 20
     },
