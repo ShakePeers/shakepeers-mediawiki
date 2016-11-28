@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5daa273bb550bfc6434beadde8bdcd8d",
-    "content-hash": "14de2db6a0062338853767ed9c7273d5",
+    "hash": "aa6cb2c55c4f9205d10ae1241493623e",
+    "content-hash": "1625f8175e7b4f995c9055b336c38e2c",
     "packages": [
         {
             "name": "composer/installers",
@@ -116,16 +116,16 @@
         },
         {
             "name": "composer/semver",
-            "version": "1.4.0",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
-                "reference": "84c47f3d8901440403217afc120683c7385aecb8"
+                "reference": "c7cb9a2095a074d131b65a8a0cd294479d785573"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/84c47f3d8901440403217afc120683c7385aecb8",
-                "reference": "84c47f3d8901440403217afc120683c7385aecb8",
+                "url": "https://api.github.com/repos/composer/semver/zipball/c7cb9a2095a074d131b65a8a0cd294479d785573",
+                "reference": "c7cb9a2095a074d131b65a8a0cd294479d785573",
                 "shasum": ""
             },
             "require": {
@@ -174,7 +174,7 @@
                 "validation",
                 "versioning"
             ],
-            "time": "2016-03-30 13:16:03"
+            "time": "2016-08-30 16:08:34"
         },
         {
             "name": "cssjanus/cssjanus",
@@ -263,15 +263,15 @@
         },
         {
             "name": "mediawiki/BetaFeatures",
-            "version": "1.27+a47f7f5",
+            "version": "1.28+2e9ea84",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/BetaFeatures.git",
-                "reference": "a47f7f5"
+                "reference": "2e9ea84"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/BetaFeatures-REL1_27-a47f7f5.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/BetaFeatures-REL1_28-2e9ea84.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -289,15 +289,15 @@
         },
         {
             "name": "mediawiki/BlockAndNuke",
-            "version": "1.27+d6133b1",
+            "version": "1.28+9798e28",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/BlockAndNuke.git",
-                "reference": "d6133b1"
+                "reference": "9798e28"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/BlockAndNuke-REL1_27-d6133b1.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/BlockAndNuke-REL1_28-9798e28.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -315,15 +315,15 @@
         },
         {
             "name": "mediawiki/CategoryTree",
-            "version": "1.27+b454f2c",
+            "version": "1.28+8242603",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/CategoryTree.git",
-                "reference": "b454f2c"
+                "reference": "8242603"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/CategoryTree-REL1_27-b454f2c.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/CategoryTree-REL1_28-8242603.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -341,15 +341,15 @@
         },
         {
             "name": "mediawiki/CheckUser",
-            "version": "1.27+fd5c25f",
+            "version": "1.28+95fe8e0",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/CheckUser.git",
-                "reference": "fd5c25f"
+                "reference": "95fe8e0"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/CheckUser-REL1_27-fd5c25f.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/CheckUser-REL1_28-95fe8e0.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -367,15 +367,15 @@
         },
         {
             "name": "mediawiki/Cite",
-            "version": "1.27+90128c2",
+            "version": "1.28+3521136",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Cite.git",
-                "reference": "90128c2"
+                "reference": "3521136"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Cite-REL1_27-90128c2.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Cite-REL1_28-3521136.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -393,15 +393,15 @@
         },
         {
             "name": "mediawiki/ConfirmEdit",
-            "version": "1.27+92652aa",
+            "version": "1.28+25c20e2",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/ConfirmEdit.git",
-                "reference": "92652aa"
+                "reference": "25c20e2"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/ConfirmEdit-REL1_27-92652aa.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/ConfirmEdit-REL1_28-25c20e2.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -419,15 +419,15 @@
         },
         {
             "name": "mediawiki/Description2",
-            "version": "1.27+e4e123a",
+            "version": "1.28+2f07438",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Description2.git",
-                "reference": "e4e123a"
+                "reference": "2f07438"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Description2-REL1_27-e4e123a.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Description2-REL1_28-2f07438.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -445,15 +445,15 @@
         },
         {
             "name": "mediawiki/Duplicator",
-            "version": "1.27+184dc0e",
+            "version": "1.28+2ec0f06",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Duplicator.git",
-                "reference": "184dc0e"
+                "reference": "2ec0f06"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Duplicator-REL1_27-184dc0e.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Duplicator-REL1_28-2ec0f06.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -471,15 +471,15 @@
         },
         {
             "name": "mediawiki/Echo",
-            "version": "1.27+b87fa2f",
+            "version": "1.28+f55bdd9",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Echo.git",
-                "reference": "b87fa2f"
+                "reference": "f55bdd9"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Echo-REL1_27-b87fa2f.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Echo-REL1_28-f55bdd9.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -497,15 +497,15 @@
         },
         {
             "name": "mediawiki/EtherpadLite",
-            "version": "1.27+553316d",
+            "version": "1.28+b5d29bf",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/EtherpadLite.git",
-                "reference": "553316d"
+                "reference": "b5d29bf"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/EtherpadLite-REL1_27-553316d.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/EtherpadLite-REL1_28-b5d29bf.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -523,15 +523,15 @@
         },
         {
             "name": "mediawiki/EventLogging",
-            "version": "1.27+5fd2427",
+            "version": "1.28+41f8b94",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/EventLogging.git",
-                "reference": "5fd2427"
+                "reference": "41f8b94"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/EventLogging-REL1_27-5fd2427.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/EventLogging-REL1_28-41f8b94.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -549,15 +549,15 @@
         },
         {
             "name": "mediawiki/GuidedTour",
-            "version": "1.27+d2aebbb",
+            "version": "1.28+b83158a",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/GuidedTour.git",
-                "reference": "d2aebbb"
+                "reference": "b83158a"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/GuidedTour-REL1_27-d2aebbb.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/GuidedTour-REL1_28-b83158a.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -575,15 +575,15 @@
         },
         {
             "name": "mediawiki/InputBox",
-            "version": "1.27+b02a228",
+            "version": "1.28+cf6777f",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/InputBox.git",
-                "reference": "b02a228"
+                "reference": "cf6777f"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/InputBox-REL1_27-b02a228.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/InputBox-REL1_28-cf6777f.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -601,15 +601,15 @@
         },
         {
             "name": "mediawiki/LabeledSectionTransclusion",
-            "version": "1.27+9212396",
+            "version": "1.28+c3a4107",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/LabeledSectionTransclusion.git",
-                "reference": "9212396"
+                "reference": "c3a4107"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/LabeledSectionTransclusion-REL1_27-9212396.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/LabeledSectionTransclusion-REL1_28-c3a4107.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -627,15 +627,15 @@
         },
         {
             "name": "mediawiki/LiquidThreads",
-            "version": "1.27+b1117c8",
+            "version": "1.28+8eef82d",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/LiquidThreads.git",
-                "reference": "b1117c8"
+                "reference": "8eef82d"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/LiquidThreads-REL1_27-b1117c8.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/LiquidThreads-REL1_28-8eef82d.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -653,15 +653,15 @@
         },
         {
             "name": "mediawiki/Lockdown",
-            "version": "1.27+0d8aa13",
+            "version": "1.28+d281c27",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Lockdown.git",
-                "reference": "0d8aa13"
+                "reference": "d281c27"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Lockdown-REL1_27-0d8aa13.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Lockdown-REL1_28-d281c27.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -679,15 +679,15 @@
         },
         {
             "name": "mediawiki/MaintenanceShell",
-            "version": "1.27+a4f124f",
+            "version": "1.28+8490618",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/MaintenanceShell.git",
-                "reference": "a4f124f"
+                "reference": "8490618"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/MaintenanceShell-REL1_27-a4f124f.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/MaintenanceShell-REL1_28-8490618.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -705,15 +705,15 @@
         },
         {
             "name": "mediawiki/Math",
-            "version": "1.27+efdd7c2",
+            "version": "1.28+b6699f8",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Math.git",
-                "reference": "efdd7c2"
+                "reference": "b6699f8"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Math-REL1_27-efdd7c2.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Math-REL1_28-b6699f8.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -731,15 +731,15 @@
         },
         {
             "name": "mediawiki/MultimediaViewer",
-            "version": "1.27+15e42f9",
+            "version": "1.28+b426dc3",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/MultimediaViewer.git",
-                "reference": "15e42f9"
+                "reference": "b426dc3"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/MultimediaViewer-REL1_27-15e42f9.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/MultimediaViewer-REL1_28-b426dc3.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -757,15 +757,15 @@
         },
         {
             "name": "mediawiki/Nuke",
-            "version": "1.27+0743584",
+            "version": "1.28+b617001",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Nuke.git",
-                "reference": "0743584"
+                "reference": "b617001"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Nuke-REL1_27-0743584.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Nuke-REL1_28-b617001.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -783,15 +783,15 @@
         },
         {
             "name": "mediawiki/OpenGraphMeta",
-            "version": "1.27+e745bf8",
+            "version": "1.28+97bcca1",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/OpenGraphMeta.git",
-                "reference": "e745bf8"
+                "reference": "97bcca1"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/OpenGraphMeta-REL1_27-e745bf8.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/OpenGraphMeta-REL1_28-97bcca1.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -809,15 +809,15 @@
         },
         {
             "name": "mediawiki/ParserFunctions",
-            "version": "1.27+d0a5d10",
+            "version": "1.28+1cb91f1",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/ParserFunctions.git",
-                "reference": "d0a5d10"
+                "reference": "1cb91f1"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/ParserFunctions-REL1_27-d0a5d10.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/ParserFunctions-REL1_28-1cb91f1.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -835,15 +835,15 @@
         },
         {
             "name": "mediawiki/PdfHandler",
-            "version": "1.27+847b64e",
+            "version": "1.28+cb4cbb3",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/PdfHandler.git",
-                "reference": "847b64e"
+                "reference": "cb4cbb3"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/PdfHandler-REL1_27-847b64e.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/PdfHandler-REL1_28-cb4cbb3.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -861,15 +861,15 @@
         },
         {
             "name": "mediawiki/RSS",
-            "version": "1.27+d945221",
+            "version": "1.28+c750e51",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/RSS.git",
-                "reference": "d945221"
+                "reference": "c750e51"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/RSS-REL1_27-d945221.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/RSS-REL1_28-c750e51.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -887,15 +887,15 @@
         },
         {
             "name": "mediawiki/Renameuser",
-            "version": "1.27+615d761",
+            "version": "1.28+f728deb",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Renameuser.git",
-                "reference": "615d761"
+                "reference": "f728deb"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Renameuser-REL1_27-615d761.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Renameuser-REL1_28-f728deb.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -913,15 +913,15 @@
         },
         {
             "name": "mediawiki/TemplateData",
-            "version": "1.27+7f21111",
+            "version": "1.28+f6400db",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateData.git",
-                "reference": "7f21111"
+                "reference": "f6400db"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/TemplateData-REL1_27-7f21111.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/TemplateData-REL1_28-f6400db.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -939,15 +939,15 @@
         },
         {
             "name": "mediawiki/TextExtracts",
-            "version": "1.27+e64f985",
+            "version": "1.28+bb9fed0",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/TextExtracts.git",
-                "reference": "e64f985"
+                "reference": "bb9fed0"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/TextExtracts-REL1_27-e64f985.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/TextExtracts-REL1_28-bb9fed0.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -965,15 +965,15 @@
         },
         {
             "name": "mediawiki/TwitterCards",
-            "version": "1.27+daa60d9",
+            "version": "1.28+f1d379e",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/TwitterCards.git",
-                "reference": "daa60d9"
+                "reference": "f1d379e"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/TwitterCards-REL1_27-daa60d9.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/TwitterCards-REL1_28-f1d379e.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -991,15 +991,15 @@
         },
         {
             "name": "mediawiki/UserMerge",
-            "version": "1.27+31ea86d",
+            "version": "1.28+55971e5",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/UserMerge.git",
-                "reference": "31ea86d"
+                "reference": "55971e5"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/UserMerge-REL1_27-31ea86d.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/UserMerge-REL1_28-55971e5.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -1017,15 +1017,15 @@
         },
         {
             "name": "mediawiki/Variables",
-            "version": "1.27+b0e1772",
+            "version": "1.28+0d60fb9",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Variables.git",
-                "reference": "b0e1772"
+                "reference": "0d60fb9"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Variables-REL1_27-b0e1772.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Variables-REL1_28-0d60fb9.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -1043,15 +1043,15 @@
         },
         {
             "name": "mediawiki/Vector",
-            "version": "1.27+d11a80a",
+            "version": "1.28+f81a1b8",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/skins/Vector.git",
-                "reference": "d11a80a"
+                "reference": "f81a1b8"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/skins/Vector-REL1_27-d11a80a.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/skins/Vector-REL1_28-f81a1b8.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -1069,15 +1069,15 @@
         },
         {
             "name": "mediawiki/VisualEditor",
-            "version": "1.27+9da5996",
+            "version": "1.28+93528b7",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/VisualEditor.git",
-                "reference": "9da5996"
+                "reference": "93528b7"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/VisualEditor-REL1_27-9da5996.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/VisualEditor-REL1_28-93528b7.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -1095,15 +1095,15 @@
         },
         {
             "name": "mediawiki/WikiArticleFeeds",
-            "version": "1.27+a37b645",
+            "version": "1.28+76143c8",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/WikiArticleFeeds.git",
-                "reference": "a37b645"
+                "reference": "76143c8"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/WikiArticleFeeds-REL1_27-a37b645.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/WikiArticleFeeds-REL1_28-76143c8.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -1121,15 +1121,15 @@
         },
         {
             "name": "mediawiki/WikiEditor",
-            "version": "1.27+f2ef921",
+            "version": "1.28+ff440d6",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/WikiEditor.git",
-                "reference": "f2ef921"
+                "reference": "ff440d6"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/WikiEditor-REL1_27-f2ef921.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/WikiEditor-REL1_28-ff440d6.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -1205,20 +1205,20 @@
         },
         {
             "name": "mediawiki/core",
-            "version": "1.27.1",
+            "version": "1.28.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki.git",
-                "reference": "a52d35d56c78918d8680cd27b6d6df5a1bbbc45b"
+                "reference": "34bc8899bf68e011fde9113c6857853cf91df0b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/a52d35d56c78918d8680cd27b6d6df5a1bbbc45b",
-                "reference": "a52d35d56c78918d8680cd27b6d6df5a1bbbc45b",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/34bc8899bf68e011fde9113c6857853cf91df0b8",
+                "reference": "34bc8899bf68e011fde9113c6857853cf91df0b8",
                 "shasum": ""
             },
             "require": {
-                "composer/semver": "1.4.0",
+                "composer/semver": "1.4.2",
                 "cssjanus/cssjanus": "1.1.2",
                 "ext-ctype": "*",
                 "ext-iconv": "*",
@@ -1227,30 +1227,33 @@
                 "ext-xml": "*",
                 "liuggio/statsd-php-client": "1.0.18",
                 "mediawiki/at-ease": "1.1.0",
-                "oojs/oojs-ui": "0.17.1",
+                "oojs/oojs-ui": "0.17.10",
                 "oyejorge/less.php": "1.7.0.10",
                 "php": ">=5.5.9",
                 "psr/log": "1.0.0",
                 "wikimedia/assert": "0.2.2",
                 "wikimedia/base-convert": "1.0.1",
-                "wikimedia/cdb": "1.3.0",
+                "wikimedia/cdb": "1.4.1",
                 "wikimedia/cldr-plural-rule-parser": "1.0.0",
                 "wikimedia/composer-merge-plugin": "1.3.1",
                 "wikimedia/html-formatter": "1.0.1",
                 "wikimedia/ip-set": "1.1.0",
-                "wikimedia/php-session-serializer": "1.0.3",
+                "wikimedia/php-session-serializer": "1.0.4",
                 "wikimedia/relpath": "1.0.3",
                 "wikimedia/running-stat": "1.1.0",
-                "wikimedia/utfnormal": "1.0.3",
-                "wikimedia/wrappedstring": "2.0.0",
+                "wikimedia/scoped-callback": "1.0.0",
+                "wikimedia/utfnormal": "1.1.0",
+                "wikimedia/wait-condition-loop": "1.0.1",
+                "wikimedia/wrappedstring": "2.2.0",
                 "zordius/lightncandy": "0.23"
             },
             "require-dev": {
+                "composer/spdx-licenses": "1.1.4",
                 "jakub-onderka/php-parallel-lint": "0.9.2",
-                "justinrainbow/json-schema": "~1.3",
+                "justinrainbow/json-schema": "~3.0",
                 "mediawiki/mediawiki-codesniffer": "0.7.2",
                 "monolog/monolog": "~1.18.2",
-                "nikic/php-parser": "1.4.1",
+                "nikic/php-parser": "2.1.0",
                 "nmred/kafka-php": "0.1.5",
                 "phpunit/phpunit": "4.8.24",
                 "wikimedia/avro": "1.7.7"
@@ -1321,9 +1324,9 @@
                 "issues": "https://bugs.mediawiki.org/",
                 "irc": "irc://irc.freenode.net/mediawiki",
                 "wiki": "https://www.mediawiki.org/",
-                "source": "https://github.com/wikimedia/mediawiki/tree/1.27.1"
+                "source": "https://github.com/wikimedia/mediawiki/tree/1.28.0"
             },
-            "time": "2016-08-23 04:46:35"
+            "time": "2016-11-28 18:42:27"
         },
         {
             "name": "mediawiki/header-footer",
@@ -1377,15 +1380,15 @@
         },
         {
             "name": "mediawiki/intersection",
-            "version": "1.27+38cdaf6",
+            "version": "1.28+21449b6",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/intersection.git",
-                "reference": "38cdaf6"
+                "reference": "21449b6"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/intersection-REL1_27-38cdaf6.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/intersection-REL1_28-21449b6.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -1461,16 +1464,16 @@
         },
         {
             "name": "oojs/oojs-ui",
-            "version": "v0.17.1",
+            "version": "v0.17.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/oojs-ui.git",
-                "reference": "ca52adc5c0191eb278baa2bcb50d30b2bd7b0af3"
+                "reference": "e4ba87bf92499538128363ffc0213c4055396782"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/oojs-ui/zipball/ca52adc5c0191eb278baa2bcb50d30b2bd7b0af3",
-                "reference": "ca52adc5c0191eb278baa2bcb50d30b2bd7b0af3",
+                "url": "https://api.github.com/repos/wikimedia/oojs-ui/zipball/e4ba87bf92499538128363ffc0213c4055396782",
+                "reference": "e4ba87bf92499538128363ffc0213c4055396782",
                 "shasum": ""
             },
             "require": {
@@ -1536,7 +1539,7 @@
             ],
             "description": "Provides library of common widgets, layouts, and windows.",
             "homepage": "https://www.mediawiki.org/wiki/OOjs_UI",
-            "time": "2016-05-03 22:34:48"
+            "time": "2016-10-03 18:37:58"
         },
         {
             "name": "oyejorge/less.php",
@@ -1750,16 +1753,16 @@
         },
         {
             "name": "shakeepers/shakepeers-skin",
-            "version": "1.0.4",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShakePeers/shakepeers-mediawiki-skin.git",
-                "reference": "b736bb79df0ddf68df2c49c823110036adf54585"
+                "reference": "d62038999ce6c7a23f29043066728e566ae09b9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/b736bb79df0ddf68df2c49c823110036adf54585",
-                "reference": "b736bb79df0ddf68df2c49c823110036adf54585",
+                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/d62038999ce6c7a23f29043066728e566ae09b9a",
+                "reference": "d62038999ce6c7a23f29043066728e566ae09b9a",
                 "shasum": ""
             },
             "type": "mediawiki-skin",
@@ -1768,7 +1771,7 @@
                 "Apache-2.0"
             ],
             "description": "Fork of bootstrap-mediawiki used on shakepeers.org",
-            "time": "2016-11-02 22:56:38"
+            "time": "2016-11-02 22:58:09"
         },
         {
             "name": "shakeepers/sitelinks-search-box",
@@ -1932,16 +1935,16 @@
         },
         {
             "name": "wikimedia/cdb",
-            "version": "1.3.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/cdb.git",
-                "reference": "68f8fd495ca94ca0e965dd511e234893c515bb95"
+                "reference": "d49d96232f045311dc1f21bf0d7e40adf82a1f1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/cdb/zipball/68f8fd495ca94ca0e965dd511e234893c515bb95",
-                "reference": "68f8fd495ca94ca0e965dd511e234893c515bb95",
+                "url": "https://api.github.com/repos/wikimedia/cdb/zipball/d49d96232f045311dc1f21bf0d7e40adf82a1f1d",
+                "reference": "d49d96232f045311dc1f21bf0d7e40adf82a1f1d",
                 "shasum": ""
             },
             "require": {
@@ -1949,7 +1952,7 @@
             },
             "require-dev": {
                 "jakub-onderka/php-parallel-lint": "0.9",
-                "mediawiki/mediawiki-codesniffer": "0.3.0",
+                "mediawiki/mediawiki-codesniffer": "0.5.0",
                 "phpunit/phpunit": "4.6.*"
             },
             "type": "library",
@@ -1963,6 +1966,9 @@
                 "GPL-2.0+"
             ],
             "authors": [
+                {
+                    "name": "Daniel Kinzler"
+                },
                 {
                     "name": "Tim Starling",
                     "email": "tstarling@wikimedia.org"
@@ -1978,7 +1984,7 @@
             ],
             "description": "Constant Database (CDB) wrapper library for PHP. Provides pure-PHP fallback when dba_* functions are absent.",
             "homepage": "https://www.mediawiki.org/wiki/CDB",
-            "time": "2015-09-08 19:53:04"
+            "time": "2016-05-29 07:39:26"
         },
         {
             "name": "wikimedia/cldr-plural-rule-parser",
@@ -2161,22 +2167,22 @@
         },
         {
             "name": "wikimedia/php-session-serializer",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/php-session-serializer.git",
-                "reference": "61dec9a25bdcea4a0cc34a22fe6f43efca390d55"
+                "reference": "4474af7aa8f0b20aa141c33eb4ad068a1c7d5b8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/php-session-serializer/zipball/61dec9a25bdcea4a0cc34a22fe6f43efca390d55",
-                "reference": "61dec9a25bdcea4a0cc34a22fe6f43efca390d55",
+                "url": "https://api.github.com/repos/wikimedia/php-session-serializer/zipball/4474af7aa8f0b20aa141c33eb4ad068a1c7d5b8c",
+                "reference": "4474af7aa8f0b20aa141c33eb4ad068a1c7d5b8c",
                 "shasum": ""
             },
             "require": {
                 "mediawiki/at-ease": "^1.0",
                 "php": ">=5.3.3",
-                "psr/log": "1.0.0"
+                "psr/log": "^1.0"
             },
             "require-dev": {
                 "jakub-onderka/php-parallel-lint": "^0.9.0.0",
@@ -2201,7 +2207,7 @@
             ],
             "description": "Provides methods like PHP's session_encode and session_decode that don't mess with $_SESSION",
             "homepage": "https://www.mediawiki.org/wiki/Php-session-serializer",
-            "time": "2015-11-10 22:16:03"
+            "time": "2016-10-01 13:19:49"
         },
         {
             "name": "wikimedia/relpath",
@@ -2288,17 +2294,59 @@
             "time": "2015-10-28 22:29:15"
         },
         {
-            "name": "wikimedia/utfnormal",
-            "version": "v1.0.3",
+            "name": "wikimedia/scoped-callback",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wikimedia/utfnormal.git",
-                "reference": "bcb81d1d87bae400af45cc419a850dcf9883775b"
+                "url": "https://github.com/wikimedia/ScopedCallback.git",
+                "reference": "73985f15be3edb7b823db31f367b780769378d2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/utfnormal/zipball/bcb81d1d87bae400af45cc419a850dcf9883775b",
-                "reference": "bcb81d1d87bae400af45cc419a850dcf9883775b",
+                "url": "https://api.github.com/repos/wikimedia/ScopedCallback/zipball/73985f15be3edb7b823db31f367b780769378d2b",
+                "reference": "73985f15be3edb7b823db31f367b780769378d2b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "jakub-onderka/php-parallel-lint": "0.9.2",
+                "mediawiki/mediawiki-codesniffer": "0.7.2",
+                "phpunit/phpunit": "4.8.27"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron Schulz",
+                    "email": "aschulz@wikimedia.org"
+                }
+            ],
+            "description": "Class for asserting that a callback happens when a dummy object leaves scope",
+            "homepage": "https://www.mediawiki.org/wiki/ScopedCallback",
+            "time": "2016-09-29 07:03:03"
+        },
+        {
+            "name": "wikimedia/utfnormal",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wikimedia/utfnormal.git",
+                "reference": "32f838c175ddefd0fdbe09e15b919d166ed5b39f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wikimedia/utfnormal/zipball/32f838c175ddefd0fdbe09e15b919d166ed5b39f",
+                "reference": "32f838c175ddefd0fdbe09e15b919d166ed5b39f",
                 "shasum": ""
             },
             "require": {
@@ -2306,10 +2354,9 @@
             },
             "require-dev": {
                 "ext-mbstring": "*",
-                "jakub-onderka/php-parallel-lint": "0.8.*",
-                "mediawiki/mediawiki-codesniffer": "0.1.0",
-                "phpunit/phpunit": "4.6.*",
-                "squizlabs/php_codesniffer": "2.2.*"
+                "jakub-onderka/php-parallel-lint": "0.9.*",
+                "mediawiki/mediawiki-codesniffer": "0.4.0",
+                "phpunit/phpunit": "4.6.*"
             },
             "type": "library",
             "autoload": {
@@ -2329,28 +2376,70 @@
             ],
             "description": "Contains Unicode normalization routines, including both pure PHP implementations and automatic use of the 'intl' PHP extension when present",
             "homepage": "https://www.mediawiki.org/wiki/utfnormal",
-            "time": "2015-08-29 14:13:27"
+            "time": "2016-05-24 13:13:30"
         },
         {
-            "name": "wikimedia/wrappedstring",
-            "version": "v2.0.0",
+            "name": "wikimedia/wait-condition-loop",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wikimedia/WrappedString.git",
-                "reference": "1b27e0ea23bd915644dade17c3fe1e45fdbadf11"
+                "url": "https://github.com/wikimedia/WaitConditionLoop.git",
+                "reference": "0321b8ca6a0f701f96e04e5e8e6d3e244ab05338"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/WrappedString/zipball/1b27e0ea23bd915644dade17c3fe1e45fdbadf11",
-                "reference": "1b27e0ea23bd915644dade17c3fe1e45fdbadf11",
+                "url": "https://api.github.com/repos/wikimedia/WaitConditionLoop/zipball/0321b8ca6a0f701f96e04e5e8e6d3e244ab05338",
+                "reference": "0321b8ca6a0f701f96e04e5e8e6d3e244ab05338",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "jakub-onderka/php-parallel-lint": "0.9.2",
+                "mediawiki/mediawiki-codesniffer": "0.7.2",
+                "phpunit/phpunit": "4.8.24"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron Schulz",
+                    "email": "aschulz@wikimedia.org"
+                }
+            ],
+            "description": "Wait loop that reaches a condition or times out",
+            "homepage": "https://www.mediawiki.org/wiki/WaitConditionLoop",
+            "time": "2016-10-01 06:58:30"
+        },
+        {
+            "name": "wikimedia/wrappedstring",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wikimedia/WrappedString.git",
+                "reference": "738a89411fec30cb381b88905cacbcbe082db6a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wikimedia/WrappedString/zipball/738a89411fec30cb381b88905cacbcbe082db6a9",
+                "reference": "738a89411fec30cb381b88905cacbcbe082db6a9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
             },
             "require-dev": {
                 "jakub-onderka/php-parallel-lint": "^0.9.0.0",
-                "mediawiki/mediawiki-codesniffer": "^0.3.0.0",
+                "mediawiki/mediawiki-codesniffer": "0.4.0",
                 "phpunit/phpunit": "^4.7.7.0"
             },
             "type": "library",
@@ -2371,7 +2460,7 @@
             ],
             "description": "Automatically compact sequentially-outputted strings that share a common prefix / suffix pair.",
             "homepage": "https://www.mediawiki.org/wiki/WrappedString",
-            "time": "2015-07-31 00:06:22"
+            "time": "2016-07-21 00:41:10"
         },
         {
             "name": "zordius/lightncandy",
@@ -2424,16 +2513,16 @@
     "packages-dev": [
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "dff51f72b0706335131b00a7f49606168c582594"
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/dff51f72b0706335131b00a7f49606168c582594",
-                "reference": "dff51f72b0706335131b00a7f49606168c582594",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
                 "shasum": ""
             },
             "require": {
@@ -2445,7 +2534,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -2479,20 +2568,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-05-18 14:26:46"
+            "time": "2016-11-14 01:06:16"
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.1.6",
+            "version": "v3.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "4dc2f03b480c43f1665d3317d827a04ed6ffd11e"
+                "reference": "0c2d613e890e33f4da810159ac97931068f5bd17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/4dc2f03b480c43f1665d3317d827a04ed6ffd11e",
-                "reference": "4dc2f03b480c43f1665d3317d827a04ed6ffd11e",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/0c2d613e890e33f4da810159ac97931068f5bd17",
+                "reference": "0c2d613e890e33f4da810159ac97931068f5bd17",
                 "shasum": ""
             },
             "require": {
@@ -2542,12 +2631,13 @@
                 "debug",
                 "dump"
             ],
-            "time": "2016-10-18 15:46:07"
+            "time": "2016-11-03 08:04:31"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "shakeepers/shakepeers-skin": 20,
         "mediawiki/header-footer": 20,
         "mediawiki/bootstrap-skin": 20
     },

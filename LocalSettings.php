@@ -238,7 +238,7 @@ require_once "$IP/extensions/Renameuser/Renameuser.php";
 //require_once "$IP/extensions/WikiArticleFeeds/WikiArticleFeeds.php";
 
 // Dynamic Page List
-require_once "$IP/extensions/Intersection/DynamicPageList.php";
+wfLoadExtension('Intersection');
 
 // Input box
 require_once "$IP/extensions/InputBox/InputBox.php";
