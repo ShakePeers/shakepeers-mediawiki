@@ -280,7 +280,6 @@ $wgHidensNamespaces = [NS_BROUILLON, NS_REVISION, NS_PUBLICATION, NS_MAIN];
 require_once "$IP/extensions/EventLogging/EventLogging.php";
 require_once "$IP/extensions/GuidedTour/GuidedTour.php";
 
-
 $wgShowExceptionDetails = true;
 
 require_once __DIR__.'/extensions/Duplicator/Duplicator.php';
@@ -351,7 +350,6 @@ function globalMeta()
     }
     </script>');
 }
-
 
 //SVG
 $wgFileExtensions[] = 'svg';
