@@ -1,0 +1,8 @@
+<?php
+
+define('NS_BROUILLON', 3000);
+define('NS_BROUILLON_TALK', 3001);
+define('NS_REVISION', 4000);
+define('NS_REVISION_TALK', 4001);
+define('NS_PUBLICATION', 5000);
+define('NS_PUBLICATION_TALK', 5001);
