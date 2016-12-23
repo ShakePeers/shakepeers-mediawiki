@@ -1,7 +1,7 @@
 {
   "name": "shakepeers-mediawiki",
   "description": "MediaWiki setup used on shakepeers.org",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "ShakePeers",
   "bugs": "https://github.com/ShakePeers/shakepeers-mediawiki/issues",
   "devDependencies": {
