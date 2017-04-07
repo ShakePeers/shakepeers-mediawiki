@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "aa6cb2c55c4f9205d10ae1241493623e",
     "content-hash": "1625f8175e7b4f995c9055b336c38e2c",
     "packages": [
         {
@@ -112,7 +111,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-08-13 20:53:52"
+            "time": "2016-08-13T20:53:52+00:00"
         },
         {
             "name": "composer/semver",
@@ -174,7 +173,7 @@
                 "validation",
                 "versioning"
             ],
-            "time": "2016-08-30 16:08:34"
+            "time": "2016-08-30T16:08:34+00:00"
         },
         {
             "name": "cssjanus/cssjanus",
@@ -209,7 +208,7 @@
                 "Apache-2.0"
             ],
             "description": "Convert CSS stylesheets between left-to-right and right-to-left.",
-            "time": "2015-06-15 17:20:16"
+            "time": "2015-06-15T17:20:16+00:00"
         },
         {
             "name": "liuggio/statsd-php-client",
@@ -259,7 +258,7 @@
                 "php",
                 "statsd"
             ],
-            "time": "2015-07-23 23:12:45"
+            "time": "2015-07-23T23:12:45+00:00"
         },
         {
             "name": "mediawiki/BetaFeatures",
@@ -627,15 +626,15 @@
         },
         {
             "name": "mediawiki/LiquidThreads",
-            "version": "1.28+8eef82d",
+            "version": "1.28+a07b03f",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/LiquidThreads.git",
-                "reference": "8eef82d"
+                "reference": "a07b03f"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/LiquidThreads-REL1_28-8eef82d.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/LiquidThreads-REL1_28-a07b03f.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -705,15 +704,15 @@
         },
         {
             "name": "mediawiki/Math",
-            "version": "1.28+b6699f8",
+            "version": "1.28+1097ee7",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Math.git",
-                "reference": "b6699f8"
+                "reference": "1097ee7"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Math-REL1_28-b6699f8.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Math-REL1_28-1097ee7.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -1190,7 +1189,7 @@
             ],
             "description": "Safe replacement to @ for suppressing warnings.",
             "homepage": "https://www.mediawiki.org/wiki/at-ease",
-            "time": "2015-09-18 07:02:06"
+            "time": "2015-09-18T07:02:06+00:00"
         },
         {
             "name": "mediawiki/bootstrap-skin",
@@ -1205,16 +1204,16 @@
         },
         {
             "name": "mediawiki/core",
-            "version": "1.28.0",
+            "version": "1.28.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki.git",
-                "reference": "34bc8899bf68e011fde9113c6857853cf91df0b8"
+                "reference": "819c0d21addeed5336244cb9b776fe83a7b2279e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/34bc8899bf68e011fde9113c6857853cf91df0b8",
-                "reference": "34bc8899bf68e011fde9113c6857853cf91df0b8",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki/zipball/819c0d21addeed5336244cb9b776fe83a7b2279e",
+                "reference": "819c0d21addeed5336244cb9b776fe83a7b2279e",
                 "shasum": ""
             },
             "require": {
@@ -1324,9 +1323,9 @@
                 "issues": "https://bugs.mediawiki.org/",
                 "irc": "irc://irc.freenode.net/mediawiki",
                 "wiki": "https://www.mediawiki.org/",
-                "source": "https://github.com/wikimedia/mediawiki/tree/1.28.0"
+                "source": "https://github.com/wikimedia/mediawiki/tree/1.28.1"
             },
-            "time": "2016-11-28 18:42:27"
+            "time": "2017-04-06T22:51:18+00:00"
         },
         {
             "name": "mediawiki/header-footer",
@@ -1460,7 +1459,7 @@
                 "mediawiki",
                 "piwik"
             ],
-            "time": "2014-11-07 22:58:44"
+            "time": "2014-11-07T22:58:44+00:00"
         },
         {
             "name": "oojs/oojs-ui",
@@ -1539,7 +1538,7 @@
             ],
             "description": "Provides library of common widgets, layouts, and windows.",
             "homepage": "https://www.mediawiki.org/wiki/OOjs_UI",
-            "time": "2016-10-03 18:37:58"
+            "time": "2016-10-03T18:37:58+00:00"
         },
         {
             "name": "oyejorge/less.php",
@@ -1601,7 +1600,7 @@
                 "php",
                 "stylesheet"
             ],
-            "time": "2015-12-30 05:47:36"
+            "time": "2015-12-30T05:47:36+00:00"
         },
         {
             "name": "psr/log",
@@ -1639,7 +1638,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2012-12-21 11:40:51"
+            "time": "2012-12-21T11:40:51+00:00"
         },
         {
             "name": "shakeepers/breadcrumb-list",
@@ -1661,7 +1660,7 @@
                 "GPL-3.0"
             ],
             "description": "Breadcrumbs with microdata",
-            "time": "2016-01-05 21:47:06"
+            "time": "2016-01-05T21:47:06+00:00"
         },
         {
             "name": "shakeepers/hide-namespace",
@@ -1683,7 +1682,7 @@
                 "GPL-2.0"
             ],
             "description": "Fork of HideNamespace extension for MediaWiki",
-            "time": "2016-01-09 18:39:25"
+            "time": "2016-01-09T18:39:25+00:00"
         },
         {
             "name": "shakeepers/page-contributors",
@@ -1705,7 +1704,7 @@
                 "proprietary"
             ],
             "description": "Fork of PageContributors extension for MediaWiki",
-            "time": "2016-01-09 18:31:15"
+            "time": "2016-01-09T18:31:15+00:00"
         },
         {
             "name": "shakeepers/page-creator",
@@ -1727,7 +1726,7 @@
                 "GPL-2.0"
             ],
             "description": "Fork of PageCreator extension for MediaWiki",
-            "time": "2016-01-05 21:52:42"
+            "time": "2016-01-05T21:52:42+00:00"
         },
         {
             "name": "shakeepers/paypal",
@@ -1749,7 +1748,7 @@
                 "GPL-2.0"
             ],
             "description": "Fork of Paypal extension for MediaWiki",
-            "time": "2016-01-09 18:51:21"
+            "time": "2016-01-09T18:51:21+00:00"
         },
         {
             "name": "shakeepers/shakepeers-skin",
@@ -1757,12 +1756,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShakePeers/shakepeers-mediawiki-skin.git",
-                "reference": "cb6798cd86fec67861c4b9a31fbe62cf2ebd3126"
+                "reference": "404b69b236b145a41a4a0ab30812fa5e974dc612"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/cb6798cd86fec67861c4b9a31fbe62cf2ebd3126",
-                "reference": "cb6798cd86fec67861c4b9a31fbe62cf2ebd3126",
+                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/404b69b236b145a41a4a0ab30812fa5e974dc612",
+                "reference": "404b69b236b145a41a4a0ab30812fa5e974dc612",
                 "shasum": ""
             },
             "type": "mediawiki-skin",
@@ -1771,7 +1770,7 @@
                 "Apache-2.0"
             ],
             "description": "Fork of bootstrap-mediawiki used on shakepeers.org",
-            "time": "2016-12-23 20:02:55"
+            "time": "2017-03-31 10:17:14"
         },
         {
             "name": "shakeepers/sitelinks-search-box",
@@ -1793,7 +1792,7 @@
                 "GPL-3.0"
             ],
             "description": "Provide Sitelinks Search Box to Google",
-            "time": "2016-01-05 21:50:35"
+            "time": "2016-01-05T21:50:35+00:00"
         },
         {
             "name": "shakepeers/no-toc",
@@ -1815,7 +1814,7 @@
                 "GPL-3.0"
             ],
             "description": "The NoTOC MediaWiki extension hides the table of contents by default.",
-            "time": "2016-09-24 19:13:55"
+            "time": "2016-09-24T19:13:55+00:00"
         },
         {
             "name": "troyengel/preloader",
@@ -1840,7 +1839,7 @@
                 "MIT"
             ],
             "description": "Preloader MediaWiki Extension",
-            "time": "2016-03-17 00:11:09"
+            "time": "2016-03-17T00:11:09+00:00"
         },
         {
             "name": "wikimedia/assert",
@@ -1885,7 +1884,7 @@
                 "precondition",
                 "qa"
             ],
-            "time": "2015-04-29 17:23:50"
+            "time": "2015-04-29T17:23:50+00:00"
         },
         {
             "name": "wikimedia/base-convert",
@@ -1931,7 +1930,7 @@
             ],
             "description": "Convert an arbitrarily-long string from one numeric base to another, optionally zero-padding to a minimum column width.",
             "homepage": "https://www.mediawiki.org/wiki/base_convert",
-            "time": "2015-10-29 22:19:02"
+            "time": "2015-10-29T22:19:02+00:00"
         },
         {
             "name": "wikimedia/cdb",
@@ -1984,7 +1983,7 @@
             ],
             "description": "Constant Database (CDB) wrapper library for PHP. Provides pure-PHP fallback when dba_* functions are absent.",
             "homepage": "https://www.mediawiki.org/wiki/CDB",
-            "time": "2016-05-29 07:39:26"
+            "time": "2016-05-29T07:39:26+00:00"
         },
         {
             "name": "wikimedia/cldr-plural-rule-parser",
@@ -2030,7 +2029,7 @@
             ],
             "description": "Evaluates plural rules specified in the CLDR project notation.",
             "homepage": "https://www.mediawiki.org/wiki/CLDRPluralRuleParser",
-            "time": "2015-08-28 17:03:03"
+            "time": "2015-08-28T17:03:03+00:00"
         },
         {
             "name": "wikimedia/composer-merge-plugin",
@@ -2079,7 +2078,7 @@
                 }
             ],
             "description": "Composer plugin to merge multiple composer.json files",
-            "time": "2016-03-08 17:11:37"
+            "time": "2016-03-08T17:11:37+00:00"
         },
         {
             "name": "wikimedia/html-formatter",
@@ -2121,7 +2120,7 @@
             ],
             "description": "Performs transformations of HTML by wrapping around libxml2 and working around its countless bugs.",
             "homepage": "https://www.mediawiki.org/wiki/HtmlFormatter",
-            "time": "2016-04-07 21:25:47"
+            "time": "2016-04-07T21:25:47+00:00"
         },
         {
             "name": "wikimedia/ip-set",
@@ -2163,7 +2162,7 @@
             ],
             "description": "Efficiently match IP addresses against a set of CIDR specifications.",
             "homepage": "https://github.com/wikimedia/IPSet",
-            "time": "2016-02-12 15:19:10"
+            "time": "2016-02-12T15:19:10+00:00"
         },
         {
             "name": "wikimedia/php-session-serializer",
@@ -2207,7 +2206,7 @@
             ],
             "description": "Provides methods like PHP's session_encode and session_decode that don't mess with $_SESSION",
             "homepage": "https://www.mediawiki.org/wiki/Php-session-serializer",
-            "time": "2016-10-01 13:19:49"
+            "time": "2016-10-01T13:19:49+00:00"
         },
         {
             "name": "wikimedia/relpath",
@@ -2249,7 +2248,7 @@
             ],
             "description": "Compute a relative filepath between two paths.",
             "homepage": "https://www.mediawiki.org/wiki/RelPath",
-            "time": "2015-09-29 21:17:03"
+            "time": "2015-09-29T21:17:03+00:00"
         },
         {
             "name": "wikimedia/running-stat",
@@ -2291,7 +2290,7 @@
             ],
             "description": "PHP implementations of online statistical algorithms",
             "homepage": "https://www.mediawiki.org/wiki/RunningStat",
-            "time": "2015-10-28 22:29:15"
+            "time": "2015-10-28T22:29:15+00:00"
         },
         {
             "name": "wikimedia/scoped-callback",
@@ -2333,7 +2332,7 @@
             ],
             "description": "Class for asserting that a callback happens when a dummy object leaves scope",
             "homepage": "https://www.mediawiki.org/wiki/ScopedCallback",
-            "time": "2016-09-29 07:03:03"
+            "time": "2016-09-29T07:03:03+00:00"
         },
         {
             "name": "wikimedia/utfnormal",
@@ -2376,7 +2375,7 @@
             ],
             "description": "Contains Unicode normalization routines, including both pure PHP implementations and automatic use of the 'intl' PHP extension when present",
             "homepage": "https://www.mediawiki.org/wiki/utfnormal",
-            "time": "2016-05-24 13:13:30"
+            "time": "2016-05-24T13:13:30+00:00"
         },
         {
             "name": "wikimedia/wait-condition-loop",
@@ -2418,7 +2417,7 @@
             ],
             "description": "Wait loop that reaches a condition or times out",
             "homepage": "https://www.mediawiki.org/wiki/WaitConditionLoop",
-            "time": "2016-10-01 06:58:30"
+            "time": "2016-10-01T06:58:30+00:00"
         },
         {
             "name": "wikimedia/wrappedstring",
@@ -2460,7 +2459,7 @@
             ],
             "description": "Automatically compact sequentially-outputted strings that share a common prefix / suffix pair.",
             "homepage": "https://www.mediawiki.org/wiki/WrappedString",
-            "time": "2016-07-21 00:41:10"
+            "time": "2016-07-21T00:41:10+00:00"
         },
         {
             "name": "zordius/lightncandy",
@@ -2507,7 +2506,7 @@
                 "php",
                 "template"
             ],
-            "time": "2015-11-05 07:14:57"
+            "time": "2015-11-05T07:14:57+00:00"
         }
     ],
     "packages-dev": [
@@ -2568,20 +2567,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.1.8",
+            "version": "v3.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "5ccbd23a97035886e595ce497dbe94bc88ac0b57"
+                "reference": "16df11647e5b992d687cb4eeeb9a882d5f5c26b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/5ccbd23a97035886e595ce497dbe94bc88ac0b57",
-                "reference": "5ccbd23a97035886e595ce497dbe94bc88ac0b57",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/16df11647e5b992d687cb4eeeb9a882d5f5c26b9",
+                "reference": "16df11647e5b992d687cb4eeeb9a882d5f5c26b9",
                 "shasum": ""
             },
             "require": {
@@ -2631,7 +2630,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2016-12-08 14:58:14"
+            "time": "2017-01-24T13:02:38+00:00"
         }
     ],
     "aliases": [],
