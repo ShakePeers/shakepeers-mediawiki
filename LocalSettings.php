@@ -34,6 +34,7 @@ $wgFavicon = "$wgScriptPath/favicon.png";
 
 $wgEnableEmail = true;
 $wgEnableUserEmail = true; // UPO
+$wgEmailConfirmToEdit = true;
 
 $wgEmergencyContact = 'contact@shakepeers.org';
 $wgPasswordSender = 'contact@shakepeers.org';
