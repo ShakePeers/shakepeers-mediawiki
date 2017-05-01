@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1625f8175e7b4f995c9055b336c38e2c",
+    "content-hash": "8bc399af7726040b813b046bd33dd648",
     "packages": [
         {
             "name": "composer/installers",
@@ -414,6 +414,32 @@
             ],
             "support": {
                 "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/ConfirmEdit"
+            }
+        },
+        {
+            "name": "mediawiki/DPLforum",
+            "version": "1.28+cc2055e",
+            "source": {
+                "type": "git",
+                "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/DPLforum.git",
+                "reference": "cc2055e"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://extdist.wmflabs.org/dist/extensions/DPLforum-REL1_28-cc2055e.tar.gz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "mediawiki-extension",
+            "homepage": "https://www.mediawiki.org/wiki/Extension:DPLforum",
+            "keywords": [
+                "mediawiki"
+            ],
+            "support": {
+                "source": "https://phabricator.wikimedia.org/r/project/mediawiki/extensions/DPLforum"
             }
         },
         {
