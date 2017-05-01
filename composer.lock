@@ -626,15 +626,15 @@
         },
         {
             "name": "mediawiki/LiquidThreads",
-            "version": "1.28+8eef82d",
+            "version": "1.28+a07b03f",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/LiquidThreads.git",
-                "reference": "8eef82d"
+                "reference": "a07b03f"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/LiquidThreads-REL1_28-8eef82d.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/LiquidThreads-REL1_28-a07b03f.tar.gz",
                 "reference": null,
                 "shasum": null
             },
@@ -704,15 +704,15 @@
         },
         {
             "name": "mediawiki/Math",
-            "version": "1.28+b6699f8",
+            "version": "1.28+1097ee7",
             "source": {
                 "type": "git",
                 "url": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Math.git",
-                "reference": "b6699f8"
+                "reference": "1097ee7"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://extdist.wmflabs.org/dist/extensions/Math-REL1_28-b6699f8.tar.gz",
+                "url": "https://extdist.wmflabs.org/dist/extensions/Math-REL1_28-1097ee7.tar.gz",
                 "reference": null,
                 "shasum": null
             },
