@@ -162,6 +162,14 @@ $wgContentNamespaces[] = 5001;
 $wgNamespacesWithSubpages[NS_PUBLICATION] = true;
 $wgNamespacesWithSubpages[NS_PUBLICATION_TALK] = true;
 
+// Archives
+$wgExtraNamespaces[NS_ARCHIVE] = 'Archives';
+$wgExtraNamespaces[NS_ARCHIVE_TALK] = 'Archives_talk';
+$wgContentNamespaces[] = 6000;
+$wgContentNamespaces[] = 6001;
+$wgNamespacesWithSubpages[NS_ARCHIVE] = true;
+$wgNamespacesWithSubpages[NS_ARCHIVE_TALK] = true;
+
 // Brouillon permissions
 $wgNamespaceProtection[NS_BROUILLON] = ['b-rights'];
 $wgGroupPermissions['editeur']['b-rights'] = true;
@@ -191,6 +199,11 @@ $wgGroupPermissions['editeur']['pub-rights'] = true;
 $wgGroupPermissions['user']['pub-rights'] = false;
 $wgNamespacePermissionLockdown[NS_PUBLICATION]['read'] = ['*'];
 $wgNonincludableNamespaces[] = NS_PUBLICATION;
+
+// Publication permissions
+$wgNamespaceProtection[NS_ARCHIVE] = ['pub-rights'];
+$wgNamespacePermissionLockdown[NS_ARCHIVE]['read'] = ['*'];
+$wgNonincludableNamespaces[] = NS_ARCHIVE;
 
 // Pour cacher certains titres de page
 $wgRestrictDisplayTitle = false;
@@ -276,7 +289,7 @@ $wgDefaultSkin = 'shakepeers';
 
 // HideNamespace extension
 require_once "$IP/extensions/HideNamespace/HideNamespace.php";
-$wgHidensNamespaces = [NS_BROUILLON, NS_REVISION, NS_PUBLICATION, NS_MAIN];
+$wgHidensNamespaces = [NS_BROUILLON, NS_REVISION, NS_PUBLICATION, NS_ARCHIVE, NS_MAIN];
 
 require_once "$IP/extensions/EventLogging/EventLogging.php";
 require_once "$IP/extensions/GuidedTour/GuidedTour.php";

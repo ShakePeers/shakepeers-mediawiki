@@ -6,3 +6,5 @@ define('NS_REVISION', 4000);
 define('NS_REVISION_TALK', 4001);
 define('NS_PUBLICATION', 5000);
 define('NS_PUBLICATION_TALK', 5001);
+define('NS_ARCHIVE', 6000);
+define('NS_ARCHIVE_TALK', 6001);
