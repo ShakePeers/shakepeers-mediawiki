@@ -40,7 +40,7 @@
     "mediawiki/RSS": "~1.29.0",
     "mediawiki/WikiArticleFeeds": "~1.29.0",
     "mediawiki/Lockdown": "~1.29.0",
-    "shakeepers/shakepeers-skin": "dev-develop",
+    "shakeepers/shakepeers-skin": "~1.0.6",
     "mediawiki/Echo": "~1.29.0",
     "mediawiki/EventLogging": "~1.29.0",
     "mediawiki/GuidedTour": "~1.29.0",

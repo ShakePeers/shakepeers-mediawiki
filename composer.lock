@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a124cfee20ca5b9195b0e9972a7616c9",
+    "content-hash": "6712eadef4712d2794316e1960ed23f5",
     "packages": [
         {
             "name": "composer/installers",
@@ -1773,16 +1773,16 @@
         },
         {
             "name": "shakeepers/shakepeers-skin",
-            "version": "dev-develop",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShakePeers/shakepeers-mediawiki-skin.git",
-                "reference": "cc835a3581c67753b2ffd63aec91fdbb55dae487"
+                "reference": "6fb225aec39329aad90127f06407473be6c551ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/cc835a3581c67753b2ffd63aec91fdbb55dae487",
-                "reference": "cc835a3581c67753b2ffd63aec91fdbb55dae487",
+                "url": "https://api.github.com/repos/ShakePeers/shakepeers-mediawiki-skin/zipball/6fb225aec39329aad90127f06407473be6c551ce",
+                "reference": "6fb225aec39329aad90127f06407473be6c551ce",
                 "shasum": ""
             },
             "type": "mediawiki-skin",
@@ -1791,7 +1791,7 @@
                 "Apache-2.0"
             ],
             "description": "Fork of bootstrap-mediawiki used on shakepeers.org",
-            "time": "2018-04-08T09:08:49+00:00"
+            "time": "2018-04-08T09:18:40+00:00"
         },
         {
             "name": "shakeepers/sitelinks-search-box",
@@ -2743,7 +2743,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "shakeepers/shakepeers-skin": 20,
         "mediawiki/header-footer": 20,
         "mediawiki/bootstrap-skin": 20
     },
