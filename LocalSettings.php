@@ -314,7 +314,7 @@ wfLoadExtension('ConfirmEdit/ReCaptchaNoCaptcha');
 $wgCaptchaClass = 'ReCaptchaNoCaptcha';
 $wgGroupPermissions['emailconfirmed']['skipcaptcha'] = true;
 $ceAllowConfirmedEmail = true;
-$wgCaptchaTriggers['create'] = true;
+$wmgEmergencyCaptcha = true;
 
 // PageCreator
 require_once "$IP/extensions/PageCreator/PageCreator.php";
