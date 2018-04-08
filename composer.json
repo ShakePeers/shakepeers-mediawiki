@@ -45,7 +45,7 @@
     "mediawiki/EventLogging": "~1.29.0",
     "mediawiki/GuidedTour": "~1.29.0",
     "mediawiki/Duplicator": "~1.29.0",
-    "mediawiki/header-footer": "dev-development",
+    "mediawiki/header-footer": "~2.2.1",
     "mediawiki/UserMerge": "~1.29.0",
     "mediawiki/ConfirmEdit": "~1.29.0",
     "shakeepers/page-creator": "~0.3.0",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6712eadef4712d2794316e1960ed23f5",
+    "content-hash": "5b15b0e2126b84b84a651ccee697d719",
     "packages": [
         {
             "name": "composer/installers",
@@ -1341,7 +1341,7 @@
         },
         {
             "name": "mediawiki/header-footer",
-            "version": "dev-development",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/enterprisemediawiki/HeaderFooter.git",
@@ -2743,7 +2743,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "mediawiki/header-footer": 20,
         "mediawiki/bootstrap-skin": 20
     },
     "prefer-stable": false,
