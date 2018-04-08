@@ -219,7 +219,7 @@ wfLoadSkin('Vector');
 I. Plugin require zone
  */
 // Wiki Editor
-require_once "$IP/extensions/WikiEditor/WikiEditor.php";
+wfLoadExtension('WikiEditor');
 // Enables use of WikiEditor by default but still allow users to disable it in preferences
 $wgDefaultUserOptions['usebetatoolbar'] = 1;
 $wgDefaultUserOptions['usebetatoolbar-cgd'] = 1;
@@ -279,7 +279,7 @@ $wgEtherpadLiteDefaultWidth = '760px';
 $wgEtherpadLiteDefaultHeigth = '600px';
 
 // RSS
-require_once "$IP/extensions/RSS/RSS.php";
+wfLoadExtension('RSS');
 require_once "$IP/extensions/WikiArticleFeeds/WikiArticleFeeds.php";
 $wgRSSUrlWhitelist = ['*'];
 
@@ -304,7 +304,7 @@ $wgGroupPermissions['*']['createaccount'] = true;
 
 require_once "$IP/extensions/HeaderFooter/HeaderFooter.php";
 
-require_once "$IP/extensions/UserMerge/UserMerge.php";
+wfLoadExtension('UserMerge');
 // By default nobody can use this function, enable for bureaucrat?
 $wgGroupPermissions['sysop']['usermerge'] = true;
 
@@ -314,7 +314,7 @@ wfLoadExtension('ConfirmEdit/ReCaptchaNoCaptcha');
 $wgCaptchaClass = 'ReCaptchaNoCaptcha';
 $wgGroupPermissions['emailconfirmed']['skipcaptcha'] = true;
 $ceAllowConfirmedEmail = true;
-$wgCaptchaTriggers['create'] = true;
+$wmgEmergencyCaptcha = true;
 
 // PageCreator
 require_once "$IP/extensions/PageCreator/PageCreator.php";
@@ -431,3 +431,6 @@ require_once "$IP/extensions/BlockAndNuke/BlockAndNuke.php";
 
 //MultimediaViewer
 require_once "$IP/extensions/MultimediaViewer/MultimediaViewer.php";
+
+//DPLforum
+require_once "$IP/extensions/DPLforum/DPLforum.php";
